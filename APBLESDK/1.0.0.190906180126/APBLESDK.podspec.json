@@ -12,7 +12,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APBLESDK/1_0_0_190906180126.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APBLESDK/1_0_0_190906180126.tar.gz"
   },
   "preserve_paths": "APBLESDK.framework/*",
   "frameworks": "CoreBluetooth",
