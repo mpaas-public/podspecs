@@ -24,7 +24,8 @@
   "dependencies": {
     "mPaas": [],
     "XMedia": [],
-    "APMUtils": []
+    "APMUtils": [],
+    "MPLicense": []
   },
   "requires_arc": true
 }
