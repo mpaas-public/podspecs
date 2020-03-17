@@ -1,0 +1,28 @@
+{
+  "name": "AMRPC",
+  "version": "1.0.0.200317000407",
+  "summary": "AMRPC - 支付宝钱包AMRPC类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AMRPC",
+  "license": "MIT",
+  "authors": {
+    "天作": "sen.wangs@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMRPC/1_0_0_200317000407.tar.gz"
+  },
+  "preserve_paths": "AMRPC.framework/*",
+  "resources": "AMRPC.framework/*.bundle",
+  "dependencies": {
+    "AMNet": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "AMRPC.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AMRPC"
+  }
+}
