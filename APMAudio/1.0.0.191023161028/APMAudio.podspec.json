@@ -1,0 +1,27 @@
+{
+  "name": "APMAudio",
+  "version": "1.0.0.191023161028",
+  "summary": "APMAudio - 支付宝钱包APMAudio类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APMAudio",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMAudio/1_0_0_191023161028.tar.gz"
+  },
+  "preserve_paths": "APMAudio.framework/*",
+  "resources": "APMAudio.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMAudio.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMAudio"
+  }
+}
