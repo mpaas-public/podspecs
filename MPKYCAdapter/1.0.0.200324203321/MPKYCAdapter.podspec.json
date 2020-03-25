@@ -1,0 +1,27 @@
+{
+  "name": "MPKYCAdapter",
+  "version": "1.0.0.200324203321",
+  "summary": "智能双录SDK适配层",
+  "description": "",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPKYCAdapter",
+  "license": "MIT",
+  "authors": {
+    "kuoxuan": "lq169592@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPKYCAdapter/1_0_0_200324203321.tar.gz"
+  },
+  "vendored_frameworks": "MPKYCAdapter.framework",
+  "preserve_paths": "MPKYCAdapter.framework/*",
+  "requires_arc": true,
+  "libraries": [
+    "sqlite3",
+    "GLKit"
+  ],
+  "dependencies": {
+    "KYC": []
+  }
+}
