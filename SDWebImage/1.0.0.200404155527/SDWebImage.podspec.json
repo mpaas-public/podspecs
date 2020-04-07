@@ -1,0 +1,28 @@
+{
+  "name": "SDWebImage",
+  "version": "1.0.0.200404155527",
+  "summary": "SDWebImage - 支付宝钱包SDWebImage类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/SDWebImage",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/SDWebImage/1_0_0_200404155527.tar.gz"
+  },
+  "preserve_paths": "SDWebImage.framework/*",
+  "resources": "SDWebImage.framework/*.bundle",
+  "frameworks": [
+    "MapKit",
+    "MobileCoreServices"
+  ],
+  "vendored_frameworks": "SDWebImage.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/SDWebImage"
+  }
+}
