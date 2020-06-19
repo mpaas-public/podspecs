@@ -1,0 +1,30 @@
+{
+  "name": "MPModelPreview",
+  "version": "1.0.0.200617200946",
+  "summary": "xnn模型预览",
+  "description": "xnn模型预览",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPModelPreview/1_0_0_200617200946.tar.gz"
+  },
+  "vendored_frameworks": "MPModelPreview.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPModelPreview.framework/*.bundle",
+  "preserve_paths": "MPModelPreview.framework/*",
+  "dependencies": {
+    "TBScanSDK": [],
+    "MPOcr": [],
+    "MPModelManager": []
+  },
+  "requires_arc": true
+}

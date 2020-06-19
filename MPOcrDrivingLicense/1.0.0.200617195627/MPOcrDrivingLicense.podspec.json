@@ -1,0 +1,18 @@
+{
+  "name": "MPOcrDrivingLicense",
+  "version": "1.0.0.200617195627",
+  "summary": "MPOcrDrivingLicense - 支付宝钱包MPOcrDrivingLicense类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPOcrDrivingLicense",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcrDrivingLicense/1_0_0_200617195627.tar.gz"
+  },
+  "resources": "MPOcrDrivingLicense.framework/*.bundle"
+}
