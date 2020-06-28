@@ -1,0 +1,35 @@
+{
+  "name": "APMPlayer",
+  "version": "1.0.0.200628114838",
+  "summary": "APMPlayer - 支付宝钱包APMPlayer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APMPlayer",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMPlayer/1_0_0_200628114838.tar.gz"
+  },
+  "preserve_paths": "APMPlayer.framework/*",
+  "resources": "APMPlayer.framework/*.bundle",
+  "frameworks": [
+    "VideoToolbox",
+    "CoreMedia",
+    "AVFoundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "APMUtils": [],
+    "APMCommon": [],
+    "MASSChannel": []
+  },
+  "vendored_frameworks": "APMPlayer.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMPlayer"
+  }
+}
