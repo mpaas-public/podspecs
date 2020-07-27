@@ -1,0 +1,64 @@
+{
+  "name": "InsideSDK",
+  "version": "1.0.0.200727170814",
+  "summary": "InsideSDK - 支付宝钱包InsideSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/InsideSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/InsideSDK/1_0_0_200727170814.tar.gz"
+  },
+  "frameworks": "LocalAuthentication",
+  "vendored_frameworks": [
+    "MtopSDK.framework",
+    "UT_Core.framework",
+    "AliLoginAccount.framework",
+    "InsideNet.framework",
+    "mtopext.framework",
+    "AliLoginFoundation.framework",
+    "InsideSchemeService.framework",
+    "UT_Common.framework",
+    "Account4InsideService.framework",
+    "InsideService.framework",
+    "AlibabaUccSDK.framework",
+    "AliLoginFacade.framework",
+    "InsideConfig.framework",
+    "InsideTinyAPP.framework",
+    "InsideServiceRouter.framework",
+    "InsideBridge.framework",
+    "Alipay2ndTrustLogin.framework",
+    "InsideUtil.framework",
+    "AlipayOpenAuthLogin.framework",
+    "AliLoginAutoLogin.framework",
+    "InsideSecurity.framework",
+    "MYPASSAdapter.framework",
+    "InsideLog.framework",
+    "InsideCache.framework",
+    "FMDB.framework",
+    "InsideLogin.framework",
+    "ALBBAccountSession.framework",
+    "ALBBAccountCore.framework",
+    "UT.framework",
+    "TaobaoAuthSDK.framework",
+    "mtopcoreopen.framework",
+    "APSecurityStorage.framework",
+    "InsideDataConfig.framework",
+    "InsideLocation.framework",
+    "ALBBAccountExtTB.framework",
+    "InsideAccountOpenAuth.framework",
+    "AlipaySDK.framework",
+    "AlipayLoginCore.framework",
+    "APSecSecuritySDKNORPC.framework"
+  ],
+  "resources": "Resource/*",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/InsideSDK"
+  }
+}
