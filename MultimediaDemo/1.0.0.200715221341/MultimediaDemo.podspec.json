@@ -1,0 +1,33 @@
+{
+  "name": "MultimediaDemo",
+  "version": "1.0.0.200715221341",
+  "summary": "Demo",
+  "description": "相关功能 demo，包括：",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MultimediaDemo/1_0_0_200715221341.tar.gz"
+  },
+  "vendored_frameworks": "MultimediaDemo.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MultimediaDemo.framework/*.bundle",
+  "preserve_paths": "MultimediaDemo.framework/*",
+  "dependencies": {
+    "APCommonUI": [],
+    "AntUI": [],
+    "AntUIShellForMpass": [],
+    "KYC": [],
+    "FaceLivenessSDK": [],
+    "MPKYCAdapter": []
+  },
+  "requires_arc": true
+}
