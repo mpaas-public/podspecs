@@ -21,8 +21,7 @@
     "AntUI": [],
     "APOpenSSL": [],
     "APMultimedia": [],
-    "Nebula": [],
-    "UTDID": []
+    "Nebula": []
   },
   "vendored_frameworks": "BeeMediaPlayer.framework",
   "requires_arc": true,

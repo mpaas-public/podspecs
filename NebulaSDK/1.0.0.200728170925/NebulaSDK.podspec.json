@@ -19,7 +19,6 @@
   "dependencies": {
     "NebulaPoseidon": [],
     "NebulaAppManager": [],
-    "SDWebImage": [],
     "APLog": []
   },
   "vendored_frameworks": "NebulaSDK.framework",

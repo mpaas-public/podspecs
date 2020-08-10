@@ -16,11 +16,7 @@
   },
   "preserve_paths": "AntUI.framework/*",
   "resources": "AntUI.framework/*.bundle",
-  "dependencies": {
-    "Masonry": [],
-    "MBProgressHUD": [],
-    "TTTAttributedLabel": []
-  },
+  "dependencies": {},
   "frameworks": [
     "UIKit",
     "Foundation",

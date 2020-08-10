@@ -24,14 +24,11 @@
     "APProtocolBuffers": [],
     "APRemoteLogging": [],
     "MPDataCenter": [],
-    "AMapFoundationKit": [],
-    "MAMapKit": [],
     "APLog": [],
     "mPaas": [],
     "Nebula": [],
     "NebulaBiz": [],
-    "AntUI": [],
-    "AMapSearchKit": []
+    "AntUI": []
   },
   "vendored_frameworks": "APMobileLBS.framework",
   "requires_arc": true,

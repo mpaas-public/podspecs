@@ -18,7 +18,6 @@
   "resources": "APRemoteLogging.framework/*.bundle",
   "dependencies": {
     "mPaas": [],
-    "UTDID": [],
     "APProtocolBuffers": []
   },
   "frameworks": "CoreTelephony",

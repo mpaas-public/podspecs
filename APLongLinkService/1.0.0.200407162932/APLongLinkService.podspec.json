@@ -25,8 +25,7 @@
     "APProtocolBuffers": [],
     "mPaas": [],
     "MPDataCenter": [],
-    "SecurityGuardSDK": [],
-    "UTDID": []
+    "SecurityGuardSDK": []
   },
   "vendored_frameworks": "APLongLinkService.framework",
   "requires_arc": true,
