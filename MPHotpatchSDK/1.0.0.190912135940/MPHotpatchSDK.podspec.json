@@ -22,7 +22,6 @@
   "resources": "MPHotpatchSDK.framework/*.bundle",
   "preserve_paths": "MPHotpatchSDK.framework/*",
   "dependencies": {
-    "SecurityGuardSDK": [],
     "APProtocolBuffers": [],
     "APRemoteLogging": [],
     "APLongLinkService": [],
