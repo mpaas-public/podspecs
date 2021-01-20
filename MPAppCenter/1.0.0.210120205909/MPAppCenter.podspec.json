@@ -1,0 +1,28 @@
+{
+  "name": "MPAppCenter",
+  "version": "1.0.0.210120205909",
+  "summary": "MPAppCenter - 支付宝钱包MPAppCenter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPAppCenter",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPAppCenter/1_0_0_210120205909.tar.gz"
+  },
+  "preserve_paths": "MPAppCenter.framework/*",
+  "resources": "MPAppCenter.framework/*.bundle",
+  "dependencies": {
+    "APProtocolBuffers": [],
+    "APMobileNetwork": []
+  },
+  "vendored_frameworks": "MPAppCenter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPAppCenter"
+  }
+}
