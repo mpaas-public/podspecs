@@ -1,0 +1,27 @@
+{
+  "name": "TinyTracker",
+  "version": "1.0.0.201208133055",
+  "summary": "TinyTracker - 支付宝钱包TinyTracker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/TinyTracker",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TinyTracker/1_0_0_201208133055.tar.gz"
+  },
+  "preserve_paths": "TinyTracker.framework/*",
+  "resources": "TinyTracker.framework/*.bundle",
+  "dependencies": {
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "TinyTracker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TinyTracker"
+  }
+}

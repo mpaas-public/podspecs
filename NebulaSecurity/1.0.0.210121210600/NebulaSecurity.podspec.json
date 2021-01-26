@@ -1,0 +1,40 @@
+{
+  "name": "NebulaSecurity",
+  "version": "1.0.0.210121210600",
+  "summary": "NebulaSecurity - 支付宝钱包NebulaSecurity类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaSecurity",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSecurity/1_0_0_210121210600.tar.gz"
+  },
+  "preserve_paths": "NebulaSecurity.framework/*",
+  "resources": "NebulaSecurity.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaResource": [],
+    "AriverApi": [],
+    "AriverSecurity": [],
+    "TinyAppCommon": [],
+    "NebulaLogging": [],
+    "MPDataCenter": [],
+    "NebulaBiz": [],
+    "APProtocolBuffers": [],
+    "APRemoteLogging": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaSecurity.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaSecurity"
+  }
+}

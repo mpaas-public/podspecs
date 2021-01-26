@@ -1,0 +1,32 @@
+{
+  "name": "AriverMapComponent",
+  "version": "1.0.0.210112173141",
+  "summary": "AriverMapComponent - 支付宝钱包AriverMapComponent类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverMapComponent",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverMapComponent/1_0_0_210112173141.tar.gz"
+  },
+  "preserve_paths": "AriverMapComponent.framework/*",
+  "resources": "AriverMapComponent.framework/*.bundle",
+  "dependencies": {
+    "AriverMap": [],
+    "AriverResource": [],
+    "AriverRuntime": [],
+    "AriverApp": [],
+    "NebulaSDK": [],
+    "NebulaTinyapp": []
+  },
+  "vendored_frameworks": "AriverMapComponent.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverMapComponent"
+  }
+}

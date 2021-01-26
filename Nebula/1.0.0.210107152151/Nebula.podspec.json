@@ -1,0 +1,31 @@
+{
+  "name": "Nebula",
+  "version": "1.0.0.210107152151",
+  "summary": "Nebula - 支付宝钱包Nebula类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Nebula",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Nebula/1_0_0_210107152151.tar.gz"
+  },
+  "preserve_paths": "Nebula.framework/*",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "NebulaSDK": [],
+    "AriverKernel": [],
+    "AriverResource": [],
+    "AriverApp": []
+  },
+  "vendored_frameworks": "Nebula.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Nebula"
+  }
+}

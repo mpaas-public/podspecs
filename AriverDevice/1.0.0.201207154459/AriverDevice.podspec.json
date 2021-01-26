@@ -1,0 +1,31 @@
+{
+  "name": "AriverDevice",
+  "version": "1.0.0.201207154459",
+  "summary": "AriverDevice - 支付宝钱包AriverDevice类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverDevice",
+  "license": "MIT",
+  "authors": {
+    "异草": "qiuping.zhou@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverDevice/1_0_0_201207154459.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverDevice-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverDevice.framework/*",
+  "header_dir": "AriverDevice",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverDeviceCore": []
+  },
+  "vendored_frameworks": "AriverDevice.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverDevice"
+  }
+}

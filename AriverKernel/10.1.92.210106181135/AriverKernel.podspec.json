@@ -1,0 +1,30 @@
+{
+  "name": "AriverKernel",
+  "version": "10.1.92.210106181135",
+  "summary": "AriverKernel - 支付宝钱包AriverKernel类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverKernel",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverKernel/10_1_92_210106181135.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverKernel-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverKernel.framework/*",
+  "resources": [
+    "AriverKernel.framework/*.bundle",
+    "Resources/*.bundle"
+  ],
+  "header_dir": "AriverKernel",
+  "vendored_frameworks": "AriverKernel.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverKernel"
+  }
+}
