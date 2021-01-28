@@ -1,0 +1,34 @@
+{
+  "name": "AriverWebSocket",
+  "version": "1.0.0.210127162344",
+  "summary": "AriverWebSocket - 支付宝钱包AriverWebSocket类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverWebSocket",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverWebSocket/1_0_0_210127162344.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverWebSocket-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverWebSocket.framework/*",
+  "header_dir": "AriverWebSocket",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverConfig": [],
+    "AriverResource": [],
+    "AriverApp": [],
+    "AriverRuntime": [],
+    "SocketRocket": []
+  },
+  "vendored_frameworks": "AriverWebSocket.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverWebSocket"
+  }
+}

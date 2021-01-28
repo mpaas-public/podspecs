@@ -1,0 +1,33 @@
+{
+  "name": "NebulaPlugins",
+  "version": "1.0.0.210127220659",
+  "summary": "NebulaPlugins - Wallet NebulaPlugins Library",
+  "description": "Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaPlugins",
+  "license": "MIT (example)",
+  "authors": {
+    "test": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaPlugins/1_0_0_210127220659.tar.gz"
+  },
+  "preserve_paths": "NebulaPlugins.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "NebulaSDK": [],
+    "APCommonUI": [],
+    "APRemoteLogging": [],
+    "APMultimedia": [],
+    "NebulaAppBiz": [],
+    "NebulaTinyapp": []
+  },
+  "vendored_frameworks": "NebulaPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaPlugins"
+  }
+}
