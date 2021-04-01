@@ -1,0 +1,24 @@
+{
+  "name": "MBProgressHUD",
+  "version": "1.0.0.210326172719",
+  "summary": "MBProgressHUD - 支付宝钱包MBProgressHUD类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MBProgressHUD",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MBProgressHUD/1_0_0_210326172719.tar.gz"
+  },
+  "preserve_paths": "MBProgressHUD.framework/*",
+  "resources": "MBProgressHUD.framework/*.bundle",
+  "vendored_frameworks": "MBProgressHUD.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MBProgressHUD"
+  }
+}
