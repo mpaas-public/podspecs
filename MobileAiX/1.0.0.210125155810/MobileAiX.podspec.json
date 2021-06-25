@@ -1,0 +1,35 @@
+{
+  "name": "MobileAiX",
+  "version": "1.0.0.210125155810",
+  "summary": "MobileAiX - 支付宝钱包MobileAiX类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MobileAiX",
+  "license": "MIT (example)",
+  "authors": {
+    "沉锋": "minxing.zmx@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MobileAiX/1_0_0_210125155810.tar.gz"
+  },
+  "preserve_paths": "MobileAiX.framework/*",
+  "resources": "MobileAiX.framework/*.bundle",
+  "dependencies": {
+    "MPMgsAdapter": [],
+    "APMobileFramework": [],
+    "xNN": [],
+    "APConfig": [],
+    "APTSDB": [],
+    "MobileAiXDataCenter": [],
+    "XMedia": [],
+    "APCrashReporter": [],
+    "MPMobileAIXAdapter": []
+  },
+  "vendored_frameworks": "MobileAiX.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MobileAiX"
+  }
+}

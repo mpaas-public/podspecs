@@ -1,0 +1,27 @@
+{
+  "name": "APMModelManager",
+  "version": "1.0.0.201102152257",
+  "summary": "APMModelManager - 支付宝钱包APMModelManager类库",
+  "description": "多媒体智能化模型管理模块.",
+  "homepage": "http://www.alipay.com/APMModelManager",
+  "license": "MIT (example)",
+  "authors": {
+    "济之": "johntsang.zt@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMModelManager/1_0_0_201102152257.tar.gz"
+  },
+  "preserve_paths": "APMModelManager.framework/*",
+  "resources": "APMModelManager.framework/*.bundle",
+  "dependencies": {
+    "APMultimedia": []
+  },
+  "vendored_frameworks": "APMModelManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMModelManager"
+  }
+}
