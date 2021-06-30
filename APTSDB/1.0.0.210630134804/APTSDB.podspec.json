@@ -1,0 +1,29 @@
+{
+  "name": "APTSDB",
+  "version": "1.0.0.210630134804",
+  "summary": "APTSDB - 支付宝钱包APTSDB类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APTSDB",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APTSDB/1_0_0_210630134804.tar.gz"
+  },
+  "preserve_paths": "APTSDB.framework/*",
+  "resources": "APTSDB.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APConfig": []
+  },
+  "vendored_frameworks": "APTSDB.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APTSDB"
+  }
+}
