@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMobileFramework/1_0_0_210811200905_undefined.tar.gz"
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMobileFramework/1_0_0_210811200905.tar.gz"
   },
   "preserve_paths": "APMobileFramework.framework/*",
   "resources": "APMobileFramework.framework/*.bundle",

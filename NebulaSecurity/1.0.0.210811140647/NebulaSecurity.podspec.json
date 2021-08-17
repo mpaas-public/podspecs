@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSecurity/1_0_0_210811140647_undefined.tar.gz"
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSecurity/1_0_0_210811140647.tar.gz"
   },
   "preserve_paths": "NebulaSecurity.framework/*",
   "resources": "NebulaSecurity.framework/*.bundle",

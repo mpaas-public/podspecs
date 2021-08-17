@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDK/1_0_0_210811195031_undefined.tar.gz"
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDK/1_0_0_210811195031.tar.gz"
   },
   "preserve_paths": "NebulaSDK.framework/*",
   "resources": "NebulaSDK.framework/*.bundle",

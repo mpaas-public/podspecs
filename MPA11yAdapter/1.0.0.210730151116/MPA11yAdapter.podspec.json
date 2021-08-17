@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPA11yAdapter/1_0_0_210730151116_undefined.tar.gz"
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPA11yAdapter/1_0_0_210730151116.tar.gz"
   },
   "preserve_paths": "MPA11yAdapter.framework/*",
   "frameworks": "WebKit",
