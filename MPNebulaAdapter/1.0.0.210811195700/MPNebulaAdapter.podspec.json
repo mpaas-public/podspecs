@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNebulaAdapter/1_0_0_210811195700.tar.gz"
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNebulaAdapter/1_0_0_210811195700_undefined.tar.gz"
   },
   "preserve_paths": "MPNebulaAdapter.framework/*",
   "resources": "MPNebulaAdapter.framework/*.bundle",
