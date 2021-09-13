@@ -19,7 +19,6 @@
     "APMobileFramework": [],
     "APMobileNetwork": [],
     "NebulaSDK": [],
-    "SDWebImage": [],
     "NebulaKernel": []
   },
   "vendored_frameworks": "Nebula.framework",
