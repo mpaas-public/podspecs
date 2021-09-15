@@ -1,0 +1,30 @@
+{
+  "name": "MPSecurityDetectAdapter",
+  "version": "1.0.0.210915134043",
+  "summary": "MPSecurityDetectAdapter - 支付宝钱包MPSecurityDetectAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPSecurityDetectAdapter",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSecurityDetectAdapter/1_0_0_210915134043.tar.gz"
+  },
+  "preserve_paths": "MPSecurityDetectAdapter.framework/*",
+  "resources": "MPSecurityDetectAdapter.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APLog": [],
+    "APPSecuritySDKCore": [],
+    "APPSecuritySDKAdapter": []
+  },
+  "vendored_frameworks": "MPSecurityDetectAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSecurityDetectAdapter"
+  }
+}
