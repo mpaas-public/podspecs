@@ -1,0 +1,26 @@
+{
+  "name": "APSecDeviceSensorInfo",
+  "version": "1.0.8.180612151558",
+  "summary": "安全sdk传感器信息",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APSecDeviceSensorInfo",
+  "license": {
+    "type": "Copyright",
+    "text": "           Alibaba-INC copyright\n"
+  },
+  "authors": {
+    "行辰": "xingchen.ln@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APSecDeviceSensorInfo/1_0_8_180612151558.tar.gz"
+  },
+  "preserve_paths": "APSecDeviceSensorInfo.framework/*",
+  "vendored_frameworks": "APSecDeviceSensorInfo.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APSecDeviceSensorInfo"
+  }
+}
