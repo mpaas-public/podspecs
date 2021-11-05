@@ -1,0 +1,27 @@
+{
+  "name": "XMediaCoreBiz",
+  "version": "1.0.0.211105171235",
+  "summary": "XMediaCoreBiz - 支付宝钱包XMediaCoreBiz类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/XMediaCoreBiz",
+  "license": "MIT (example)",
+  "authors": {
+    "济之": "johntsang.zt@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/XMediaCoreBiz/1_0_0_211105171235.tar.gz"
+  },
+  "preserve_paths": "XMediaCoreBiz.framework/*",
+  "dependencies": {
+    "XMedia": []
+  },
+  "libraries": "iconv.2.4.0",
+  "vendored_frameworks": "XMediaCoreBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/XMediaCoreBiz"
+  }
+}
