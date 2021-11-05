@@ -1,0 +1,37 @@
+{
+  "name": "Ant3D",
+  "version": "1.0.0.211105160300",
+  "summary": "Ant3D - 支付宝钱包Ant3D类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Ant3D",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Ant3D/1_0_0_211105160300.tar.gz"
+  },
+  "preserve_paths": "Ant3D.framework/*",
+  "resources": "Ant3D.framework/*.bundle",
+  "weak_frameworks": "ARKit",
+  "dependencies": {
+    "mPaas": [],
+    "APMUtils": [],
+    "Texel": [],
+    "APMultimedia": [],
+    "libCVEngine": [],
+    "XMediaCoreBiz": [],
+    "APMHevc": [],
+    "APProtocolBuffers": [],
+    "APMImageProcessing": [],
+    "Ant3DEngine": []
+  },
+  "vendored_frameworks": "Ant3D.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Ant3D"
+  }
+}
