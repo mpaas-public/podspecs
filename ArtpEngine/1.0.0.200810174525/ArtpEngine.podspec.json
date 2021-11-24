@@ -1,0 +1,24 @@
+{
+  "name": "ArtpEngine",
+  "version": "1.0.0.200810174525",
+  "summary": "ArtpEngine - 支付宝钱包ArtpEngine类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/ArtpEngine",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ArtpEngine/1_0_0_200810174525.tar.gz"
+  },
+  "preserve_paths": "ArtpEngine.framework/*",
+  "resources": "ArtpEngine.framework/*.bundle",
+  "vendored_frameworks": "ArtpEngine.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ArtpEngine"
+  }
+}
