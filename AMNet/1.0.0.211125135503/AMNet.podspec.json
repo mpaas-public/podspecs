@@ -1,0 +1,28 @@
+{
+  "name": "AMNet",
+  "version": "1.0.0.211125135503",
+  "summary": "AMNet - 支付宝钱包AMNet类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AMNet",
+  "license": "MIT (example)",
+  "authors": {
+    "天作": "sen.wangs@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMNet/1_0_0_211125135503.tar.gz"
+  },
+  "preserve_paths": "AMNet.framework/*",
+  "dependencies": {
+    "APOpenSSL": [],
+    "APProtocolBuffers": [],
+    "APBaseInterfaceAdapter": []
+  },
+  "vendored_frameworks": "AMNet.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AMNet"
+  }
+}
