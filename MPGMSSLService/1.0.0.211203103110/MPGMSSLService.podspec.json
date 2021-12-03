@@ -1,0 +1,30 @@
+{
+  "name": "MPGMSSLService",
+  "version": "1.0.0.211203103110",
+  "summary": "MPGMSSLService - 支付宝钱包MPGMSSLService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPGMSSLService",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPGMSSLService/1_0_0_211203103110.tar.gz"
+  },
+  "preserve_paths": "MPGMSSLService.framework/*",
+  "resources": "MPGMSSLService.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "AMNet": [],
+    "APRemoteLogging": []
+  },
+  "libraries": "resolv",
+  "vendored_frameworks": "MPGMSSLService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPGMSSLService"
+  }
+}
