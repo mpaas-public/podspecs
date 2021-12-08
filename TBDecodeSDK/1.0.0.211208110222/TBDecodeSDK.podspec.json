@@ -1,0 +1,30 @@
+{
+  "name": "TBDecodeSDK",
+  "version": "1.0.0.211208110222",
+  "summary": "TBDecodeSDK - 支付宝钱包TBDecodeSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/TBDecodeSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "将然": "jiangran.sy@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TBDecodeSDK/1_0_0_211208110222.tar.gz"
+  },
+  "preserve_paths": "TBDecodeSDK.framework/*",
+  "resources": "TBDecodeSDK.framework/*.bundle",
+  "libraries": "stdc++",
+  "dependencies": {
+    "xNN": [],
+    "libCVEngine": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "TBDecodeSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TBDecodeSDK"
+  }
+}
