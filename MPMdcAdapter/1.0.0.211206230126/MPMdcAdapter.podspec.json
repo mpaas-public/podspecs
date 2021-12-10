@@ -1,0 +1,27 @@
+{
+  "name": "MPMdcAdapter",
+  "version": "1.0.0.211206230126",
+  "summary": "MPMdcAdapter - 支付宝钱包MPMdcAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMdcAdapter",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMdcAdapter/1_0_0_211206230126.tar.gz"
+  },
+  "preserve_paths": "MPMdcAdapter.framework/*",
+  "resources": "MPMdcAdapter.framework/*.bundle",
+  "dependencies": {
+    "MPMDC": []
+  },
+  "vendored_frameworks": "MPMdcAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMdcAdapter"
+  }
+}
