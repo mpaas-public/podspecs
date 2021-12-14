@@ -1,0 +1,28 @@
+{
+  "name": "ARTVCS",
+  "version": "1.0.0.211203163715",
+  "summary": "ARTVCS - ARTVCS for Alipay",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/ARTVCS",
+  "license": "MIT (example)",
+  "authors": {
+    "undefined": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ARTVCS/1_0_0_211203163715.tar.gz"
+  },
+  "preserve_paths": "ARTVCS.framework/*",
+  "resources": "ARTVCS.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "ARTVC": []
+  },
+  "vendored_frameworks": "ARTVCS.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ARTVCS"
+  }
+}
