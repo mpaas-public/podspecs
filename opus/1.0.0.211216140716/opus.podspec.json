@@ -1,0 +1,24 @@
+{
+  "name": "opus",
+  "version": "1.0.0.211216140716",
+  "summary": "opus - 支付宝钱包opus类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/opus",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/opus/1_0_0_211216140716.tar.gz"
+  },
+  "preserve_paths": "opus.framework/*",
+  "resources": "opus.framework/*.bundle",
+  "vendored_frameworks": "opus.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/opus"
+  }
+}
