@@ -1,0 +1,24 @@
+{
+  "name": "dfplite",
+  "version": "1.0.0.211231140705",
+  "summary": "dfplite - 支付宝钱包dfplite类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/dfplite",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/dfplite/1_0_0_211231140705.tar.gz"
+  },
+  "preserve_paths": "dfplite.framework/*",
+  "resources": "dfplite.framework/*.bundle",
+  "vendored_frameworks": "dfplite.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/dfplite"
+  }
+}

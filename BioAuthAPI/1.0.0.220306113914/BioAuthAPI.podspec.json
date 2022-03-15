@@ -1,0 +1,25 @@
+{
+  "name": "BioAuthAPI",
+  "version": "1.0.0.220306113914",
+  "summary": "BioAuthAPI - 支付宝钱包BioAuthAPI类库",
+  "description": "生物识别框架入口",
+  "homepage": "http://www.alipay.com/BioAuthAPI",
+  "license": "MIT (example)",
+  "authors": {
+    "椿衡": "yukun.tyk@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BioAuthAPI/1_0_0_220306113914.tar.gz"
+  },
+  "preserve_paths": "BioAuthAPI.framework/*",
+  "header_dir": "BioAuthAPI",
+  "resources": "BioAuthAPI.framework/*.bundle",
+  "vendored_frameworks": "BioAuthAPI.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BioAuthAPI"
+  }
+}

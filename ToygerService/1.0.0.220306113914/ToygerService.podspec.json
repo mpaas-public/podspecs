@@ -1,0 +1,32 @@
+{
+  "name": "ToygerService",
+  "version": "1.0.0.220306113914",
+  "summary": "ToygerService - 支付宝钱包ToygerService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Toyger",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ToygerService/1_0_0_220306113914.tar.gz"
+  },
+  "preserve_paths": "ToygerService.framework/*",
+  "resources": "ToygerService.framework/*.bundle",
+  "dependencies": {
+    "ZLZProtoBufferLite": [],
+    "ToygerServiceAlgo": [],
+    "BioAuthEngine": [],
+    "ZolozSensorServices": [],
+    "APBToygerFacade": [],
+    "ZolozDocScan": []
+  },
+  "vendored_frameworks": "ToygerService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ToygerService"
+  }
+}
