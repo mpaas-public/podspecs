@@ -1,0 +1,29 @@
+{
+  "name": "BeeYouKuUPS",
+  "version": "1.0.0.220310172706",
+  "summary": "BeeYouKuUPS - 支付宝钱包BeeYouKuUPS类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeeYouKuUPS",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeYouKuUPS/1_0_0_220310172706.tar.gz"
+  },
+  "preserve_paths": "BeeYouKuUPS.framework/*",
+  "resources": "BeeYouKuUPS.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APConfig": []
+  },
+  "vendored_frameworks": "BeeYouKuUPS.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeYouKuUPS"
+  }
+}
