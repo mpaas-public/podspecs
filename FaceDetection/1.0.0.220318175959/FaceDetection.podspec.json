@@ -1,0 +1,24 @@
+{
+  "name": "FaceDetection",
+  "version": "1.0.0.220318175959",
+  "summary": "FaceDetection - 支付宝钱包FaceDetection类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/FaceDetection",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/FaceDetection/1_0_0_220318175959.tar.gz"
+  },
+  "preserve_paths": "FaceDetection.framework/*",
+  "resources": "FaceDetection.framework/*.bundle",
+  "vendored_frameworks": "FaceDetection.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/FaceDetection"
+  }
+}

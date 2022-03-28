@@ -1,0 +1,24 @@
+{
+  "name": "MPMNN",
+  "version": "1.0.0.220318175959",
+  "summary": "MPMNN - 支付宝钱包MPMNN类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMNN",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMNN/1_0_0_220318175959.tar.gz"
+  },
+  "preserve_paths": "MPMNN.framework/*",
+  "resources": "MPMNN.framework/*.bundle",
+  "vendored_frameworks": "MNN.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMNN"
+  }
+}

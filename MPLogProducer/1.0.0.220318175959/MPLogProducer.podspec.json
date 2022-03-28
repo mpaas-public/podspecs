@@ -1,0 +1,26 @@
+{
+  "name": "MPLogProducer",
+  "version": "1.0.0.220318175959",
+  "summary": "MPLogProducer - 支付宝钱包MPLogProducer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPLogProducer",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPLogProducer/1_0_0_220318175959.tar.gz"
+  },
+  "preserve_paths": "MPLogProducer.framework/*",
+  "vendored_frameworks": [
+    "AliyunLogProducer.framework",
+    "WPKMobi.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPLogProducer"
+  }
+}
