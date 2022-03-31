@@ -1,0 +1,35 @@
+{
+  "name": "BioAuthEngine",
+  "version": "1.0.0.220330164317",
+  "summary": "BioAuthEngine - 支付宝钱包BioAuthEngine类库",
+  "description": "生物识别框架",
+  "homepage": "http://www.alipay.com/BioAuthEngine",
+  "license": "MIT (example)",
+  "authors": {
+    "椿衡": "yukun.tyk@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BioAuthEngine/1_0_0_220330164317.tar.gz"
+  },
+  "preserve_paths": "BioAuthEngine.framework/*",
+  "resources": "BioAuthEngine.framework/*.bundle",
+  "dependencies": {
+    "BioAuthAPI": [],
+    "ZLZProtoBufferLite": []
+  },
+  "frameworks": [
+    "AVFoundation",
+    "CoreTelephony",
+    "CoreMotion",
+    "CoreLocation",
+    "SystemConfiguration"
+  ],
+  "vendored_frameworks": "BioAuthEngine.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BioAuthEngine"
+  }
+}
