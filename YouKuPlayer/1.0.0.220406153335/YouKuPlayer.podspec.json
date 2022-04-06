@@ -1,0 +1,38 @@
+{
+  "name": "YouKuPlayer",
+  "version": "1.0.0.220406153335",
+  "summary": "YouKuPlayer - 支付宝钱包YouKuPlayer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/YouKuPlayer",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/YouKuPlayer/1_0_0_220406153335.tar.gz"
+  },
+  "preserve_paths": "YouKuPlayer.framework/*",
+  "resources": "YouKuPlayer.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "BeeYouKuUPS": [],
+    "APConfig": [],
+    "FFMpeg": []
+  },
+  "frameworks": [
+    "AudioToolBox",
+    "CoreMedia",
+    "VideoToolbox",
+    "AVFoundation",
+    "GLKit"
+  ],
+  "vendored_frameworks": "YouKuPlayer.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/YouKuPlayer"
+  }
+}
