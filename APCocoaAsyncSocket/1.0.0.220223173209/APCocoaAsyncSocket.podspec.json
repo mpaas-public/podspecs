@@ -1,0 +1,24 @@
+{
+  "name": "APCocoaAsyncSocket",
+  "version": "1.0.0.220223173209",
+  "summary": "APCocoaAsyncSocket - 支付宝钱包APCocoaAsyncSocket类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APCocoaAsyncSocket",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APCocoaAsyncSocket/1_0_0_220223173209.tar.gz"
+  },
+  "preserve_paths": "APCocoaAsyncSocket.framework/*",
+  "resources": "APCocoaAsyncSocket.framework/*.bundle",
+  "vendored_frameworks": "APCocoaAsyncSocket.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APCocoaAsyncSocket"
+  }
+}
