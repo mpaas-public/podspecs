@@ -1,0 +1,36 @@
+{
+  "name": "MPIDRSSDK",
+  "version": "1.0.0.220407204829",
+  "summary": "MPIDRSSDK - 支付宝钱包MPIDRSSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPIDRSSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPIDRSSDK/1_0_0_220407204829.tar.gz"
+  },
+  "preserve_paths": "MPIDRSSDK.framework/*",
+  "resources": "MPIDRSSDK.framework/*.bundle",
+  "dependencies": {
+    "XMedia": [],
+    "Texel": [],
+    "MPMNN": [],
+    "MPLogProducer": [],
+    "MPNuiTts": [],
+    "MPHandDetection": [],
+    "MPFaceDetection": [],
+    "MPIDRSLog": [],
+    "ARTVC": [],
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "MPIDRSSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPIDRSSDK"
+  }
+}
