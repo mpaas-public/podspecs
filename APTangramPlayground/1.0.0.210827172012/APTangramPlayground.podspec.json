@@ -1,0 +1,29 @@
+{
+  "name": "APTangramPlayground",
+  "version": "1.0.0.210827172012",
+  "summary": "APTangramPlayground - 支付宝钱包APTangramPlayground类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APTangramPlayground",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APTangramPlayground/1_0_0_210827172012.tar.gz"
+  },
+  "preserve_paths": "APTangramPlayground.framework/*",
+  "resources": "APTangramPlayground.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "MobileAiX": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "APTangramPlayground.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APTangramPlayground"
+  }
+}
