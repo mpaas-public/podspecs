@@ -1,0 +1,40 @@
+{
+  "name": "NBInside",
+  "version": "1.0.0.220314151050",
+  "summary": "NBInside - 支付宝钱包NBInside类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NBInside",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NBInside/1_0_0_220314151050.tar.gz"
+  },
+  "preserve_paths": "NBInside.framework/*",
+  "resources": "NBInside.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APConfig": [],
+    "APLog": [],
+    "APRemoteLogging": [],
+    "mPaas": [],
+    "Nebula": [],
+    "NebulaLogging": [],
+    "AriverResource": [],
+    "AriverApp": [],
+    "MPDataCenter": [],
+    "NebulaTinyapp": [],
+    "AntUI": [],
+    "TinyTracker": [],
+    "NebulamPaaSBiz": []
+  },
+  "vendored_frameworks": "NBInside.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NBInside"
+  }
+}
