@@ -1,0 +1,59 @@
+{
+  "name": "AntVerify",
+  "version": "1.0.0.220512144809",
+  "summary": "AntVerify - 支付宝钱包AntVerify类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AntVerify",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntVerify/1_0_0_220512144809.tar.gz"
+  },
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation",
+    "AVFoundation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "libraries": [
+    "c++",
+    "c++.1",
+    "c++abi"
+  ],
+  "vendored_frameworks": [
+    "AlipayVerifySDK.framework",
+    "AliyunIdentityManager.framework",
+    "APBToygerFacade.framework",
+    "APPSecuritySDK.framework",
+    "BioAuthAPI.framework",
+    "BioAuthEngine.framework",
+    "MPRemoteLogging.framework",
+    "OCRDetectSDKForTech.framework",
+    "ToygerService.framework",
+    "ZolozIdentityManager.framework",
+    "ZolozMobileRPC.framework",
+    "ZolozOpenPlatformBuild.framework",
+    "ZolozSensorServices.framework",
+    "ZolozUtility.framework"
+  ],
+  "resources": [
+    "APBToygerFacade.framework/APBToygerFacade.bundle",
+    "AlipayVerifySDK.framework/AlipayVerifySDK.bundle",
+    "BioAuthEngine.framework/BioAuthEngine.bundle",
+    "OCRDetectSDKForTech.framework/OCRXMedia.bundle",
+    "ToygerService.framework/ToygerService.bundle"
+  ],
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntVerify"
+  },
+  "requires_arc": true
+}
