@@ -1,0 +1,24 @@
+{
+  "name": "WechatOpenSDK",
+  "version": "1.0.0.220516184138",
+  "summary": "WechatOpenSDK - 支付宝钱包WechatOpenSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/WechatOpenSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/WechatOpenSDK/1_0_0_220516184138.tar.gz"
+  },
+  "preserve_paths": "WechatOpenSDK/OpenSDK1.8.7.1/*",
+  "vendored_libraries": "WechatOpenSDK/OpenSDK1.8.7.1/*.a",
+  "public_header_files": "WechatOpenSDK/OpenSDK1.8.7.1/*.h",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/WechatOpenSDK"
+  }
+}

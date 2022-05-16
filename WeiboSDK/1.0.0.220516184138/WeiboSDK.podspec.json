@@ -1,0 +1,25 @@
+{
+  "name": "WeiboSDK",
+  "version": "1.0.0.220516184138",
+  "summary": "WeiboSDK - 支付宝钱包WeiboSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/WeiboSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/WeiboSDK/1_0_0_220516184138.tar.gz"
+  },
+  "preserve_paths": "WeiboSDK/libWeiboSDK/*",
+  "vendored_libraries": "WeiboSDK/libWeiboSDK/*.a",
+  "public_header_files": "WeiboSDK/libWeiboSDK/*.h",
+  "resources": "WeiboSDK/libWeiboSDK/*.bundle",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/WeiboSDK"
+  }
+}
