@@ -14,7 +14,7 @@
   "source": {
     "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APOpenSDK/1_0_0_220513183740.tar.gz"
   },
-  "preserve_paths": "APOpenSDK.framework/*",
+  "preserve_paths": "APOpenSDK/*",
   "vendored_libraries": "APOpenSDK/*.a",
   "public_header_files": "APOpenSDK/*.h",
   "requires_arc": true,
