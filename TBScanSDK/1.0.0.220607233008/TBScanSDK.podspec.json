@@ -1,0 +1,47 @@
+{
+  "name": "TBScanSDK",
+  "version": "1.0.0.220607233008",
+  "summary": "TBScanSDK - 支付宝钱包TBScanSDK类库",
+  "description": "* 摄像头、相册相关封装",
+  "homepage": "http://www.alipay.com/TBScanSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "将然": "jiangran.sy@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TBScanSDK/1_0_0_220607233008.tar.gz"
+  },
+  "preserve_paths": "TBScanSDK.framework/*",
+  "resources": "TBScanSDK.framework/Resources/*",
+  "dependencies": {
+    "TBDecodeSDK": [],
+    "APRemoteLogging": [],
+    "mPaas": []
+  },
+  "frameworks": [
+    "AVFoundation",
+    "CoreMedia",
+    "AudioToolbox",
+    "AssetsLibrary",
+    "CoreVideo",
+    "QuartzCore",
+    "ImageIO",
+    "UIKit",
+    "CoreGraphics",
+    "CoreMotion",
+    "CoreImage",
+    "Accelerate"
+  ],
+  "weak_frameworks": [
+    "Vision",
+    "CoreML"
+  ],
+  "vendored_frameworks": "TBScanSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TBScanSDK"
+  }
+}

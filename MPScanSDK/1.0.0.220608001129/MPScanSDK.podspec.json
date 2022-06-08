@@ -1,0 +1,28 @@
+{
+  "name": "MPScanSDK",
+  "version": "1.0.0.220608001129",
+  "summary": "MPScanSDK - 支付宝钱包MPScanSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPScanSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPScanSDK/1_0_0_220608001129.tar.gz"
+  },
+  "preserve_paths": "MPScanSDK.framework/*",
+  "resources": "MPScanSDK.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "MPScanSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPScanSDK"
+  }
+}
