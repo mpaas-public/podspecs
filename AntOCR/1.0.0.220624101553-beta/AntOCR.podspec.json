@@ -1,0 +1,43 @@
+{
+  "name": "AntOCR",
+  "version": "1.0.0.220624101553-beta",
+  "summary": "AntOCR - 支付宝钱包AntOCR类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AntOCR",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntOCR/1_0_0_220624101553-beta.tar.gz"
+  },
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation",
+    "AVFoundation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "resources": "",
+  "vendored_frameworks": "",
+  "dependencies": {
+    "APMUtils": [],
+    "XMedia": [],
+    "xNN": [],
+    "MPOCRAdapter": [],
+    "MPModelManager": [],
+    "MPOcr": [],
+    "MPRemoteLogging": [],
+    "ZolozMobileRPC": []
+  },
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntOCR"
+  }
+}

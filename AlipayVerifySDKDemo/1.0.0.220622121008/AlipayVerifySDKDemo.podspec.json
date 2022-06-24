@@ -1,0 +1,34 @@
+{
+  "name": "AlipayVerifySDKDemo",
+  "version": "1.0.0.220622121008",
+  "summary": "AlipayVerifySDKDemo",
+  "description": "钱包AlipayVerifySDKDemo",
+  "homepage": "http://www.alipay.com/Portal",
+  "license": "MIT (example)",
+  "authors": {
+    "文壁": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "dependencies": {
+    "AlipayVerifySDK": [],
+    "APPSecuritySDK": [],
+    "BioAuthAPI": [],
+    "MPRemoteLogging": [],
+    "ZolozIdentityManager": [],
+    "ZolozOpenPlatformBuild": [],
+    "ZolozSensorServices": [],
+    "ZolozUtility": [],
+    "BioAuthEngine": [],
+    "APBToygerFacade": [],
+    "ToygerService": [],
+    "OCRDetectSDKForTech": [],
+    "AliyunIdentityManager": [],
+    "ZolozMobileRPC": []
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AlipayVerifySDKDemo/1_0_0_220622121008.tar.gz"
+  },
+  "preserve_paths": "Portal/*"
+}

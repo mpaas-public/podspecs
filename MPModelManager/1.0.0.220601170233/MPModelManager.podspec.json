@@ -1,0 +1,25 @@
+{
+  "name": "MPModelManager",
+  "version": "1.0.0.220601170233",
+  "summary": "模型管理",
+  "description": "模型管理",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPModelManager/1_0_0_220601170233.tar.gz"
+  },
+  "vendored_frameworks": "MPModelManager.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPModelManager.framework/*.bundle",
+  "preserve_paths": "MPModelManager.framework/*",
+  "requires_arc": true
+}
