@@ -1,0 +1,44 @@
+{
+  "name": "AntCube",
+  "version": "1.0.0.220722170407",
+  "summary": "AntCube - 支付宝钱包CubeKit引擎",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.alipay.com/AntCube",
+  "license": "MIT (example)",
+  "authors": {
+    "达梦": "zhuocheng.lzc@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntCube/1_0_0_220722170407.tar.gz"
+  },
+  "preserve_paths": "AntCube.framework/*",
+  "resources": [
+    "CubeKit.framework/*.bundle",
+    "AntCube.framework/*.bundle"
+  ],
+  "dependencies": {
+    "APMobileFramework": [],
+    "APConfig": [],
+    "APRemoteLogging": [],
+    "APLog": [],
+    "AntWasm": [],
+    "mPaas": [],
+    "SDWebImage": [],
+    "MPMgsAdapter": [],
+    "MPMasAdapter": []
+  },
+  "vendored_frameworks": [
+    "AntCube.framework",
+    "CubeKit.framework",
+    "CubeBridge.framework",
+    "CubeCore.framework",
+    "CubePlatform.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntCube"
+  }
+}
