@@ -1,0 +1,30 @@
+{
+  "name": "MPOCRAdapter",
+  "version": "1.0.0.220712180605",
+  "summary": "MPOCRAdapter - 支付宝钱包MPOCRAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPOCRAdapter",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOCRAdapter/1_0_0_220712180605.tar.gz"
+  },
+  "preserve_paths": "MPOCRAdapter.framework/*",
+  "dependencies": {
+    "MPOcr": [],
+    "APMUtils": []
+  },
+  "frameworks": [
+    "CoreMedia"
+  ],
+  "vendored_frameworks": "MPOCRAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPOCRAdapter"
+  }
+}
