@@ -1,0 +1,39 @@
+{
+  "name": "NebulaResource",
+  "version": "1.0.0.220630150359",
+  "summary": "NebulaResource - 支付宝钱包NebulaResource类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaResource",
+  "license": "MIT (example)",
+  "authors": {
+    "tina.zl": "tina.zl@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaResource/1_0_0_220630150359.tar.gz"
+  },
+  "preserve_paths": "NebulaResource.framework/*",
+  "resources": "NebulaResource.framework/*.bundle",
+  "libraries": [
+    "z",
+    "c++",
+    "bz2"
+  ],
+  "dependencies": {
+    "AriverApp": [],
+    "AriverKernel": [],
+    "AriverResource": [],
+    "APLog": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaResource.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaResource"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lbz2"
+  }
+}
