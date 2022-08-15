@@ -1,0 +1,29 @@
+{
+  "name": "AriverFileManager",
+  "version": "1.0.0.220808104509",
+  "summary": "AriverFileManager - 支付宝钱包AriverFileManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverFileManager",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverFileManager/1_0_0_220808104509.tar.gz"
+  },
+  "preserve_paths": "AriverFileManager.framework/*",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverApi": [],
+    "AriverResource": []
+  },
+  "vendored_frameworks": "AriverFileManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverFileManager"
+  }
+}

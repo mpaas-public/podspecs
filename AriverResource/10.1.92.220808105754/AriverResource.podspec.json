@@ -1,0 +1,30 @@
+{
+  "name": "AriverResource",
+  "version": "10.1.92.220808105754",
+  "summary": "AriverResource - 支付宝钱包AriverResource类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AriverResource",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverResource/10_1_92_220808105754.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverResource-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverResource.framework/*",
+  "header_dir": "AriverResource",
+  "dependencies": {
+    "AriverKernel": [],
+    "APMobileFramework": []
+  },
+  "vendored_frameworks": "AriverResource.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverResource"
+  }
+}
