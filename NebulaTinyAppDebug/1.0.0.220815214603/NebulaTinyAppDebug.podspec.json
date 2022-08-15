@@ -1,0 +1,37 @@
+{
+  "name": "NebulaTinyAppDebug",
+  "version": "1.0.0.220815214603",
+  "summary": "NebulaTinyAppDebug - 支付宝钱包NebulaTinyAppDebug类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaTinyAppDebug",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaTinyAppDebug/1_0_0_220815214603.tar.gz"
+  },
+  "preserve_paths": "NebulaTinyAppDebug.framework/*",
+  "resources": "NebulaTinyAppDebug.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaNetwork": [],
+    "TinyAppCommon": [],
+    "NebulaResource": [],
+    "AntUI": [],
+    "AriverWebSocket": [],
+    "InsideSDK": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaTinyAppDebug.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaTinyAppDebug"
+  }
+}

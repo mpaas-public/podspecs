@@ -1,0 +1,29 @@
+{
+  "name": "ExpAR",
+  "version": "1.0.0.220815213712",
+  "summary": "ExpAR - 支付宝钱包ExpAR类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/ExpAR",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ExpAR/1_0_0_220815213712.tar.gz"
+  },
+  "preserve_paths": "ExpAR.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APLog": [],
+    "AntGraphic": []
+  },
+  "vendored_frameworks": "ExpAR.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ExpAR"
+  }
+}
