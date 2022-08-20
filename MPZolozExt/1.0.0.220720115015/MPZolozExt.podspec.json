@@ -1,0 +1,27 @@
+{
+  "name": "MPZolozExt",
+  "version": "1.0.0.220720115015",
+  "summary": "MPZolozExt - 支付宝钱包MPZolozExt类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPZolozExt",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPZolozExt/1_0_0_220720115015.tar.gz"
+  },
+  "preserve_paths": "MPZolozExt.framework/*",
+  "dependencies": {
+    "zolozIdentitySDK": [],
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "MPZolozExt.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPZolozExt"
+  }
+}
