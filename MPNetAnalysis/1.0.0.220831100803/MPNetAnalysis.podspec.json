@@ -1,0 +1,31 @@
+{
+  "name": "MPNetAnalysis",
+  "version": "1.0.0.220831100803",
+  "summary": "MPNetAnalysis - mPaaS 网络探测库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://gitlab.alipay-inc.com/mPaaS_SDK_iOS/MPNetAnalysisSDK",
+  "license": "MIT",
+  "authors": {
+    "xiaomu": "zhengyumin.zym@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNetAnalysis/1_0_0_220831100803.tar.gz"
+  },
+  "preserve_paths": "MPNetAnalysis.framework/*",
+  "dependencies": {
+    "mPaas": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "Masonry": []
+  },
+  "vendored_frameworks": "MPNetAnalysis.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPNetAnalysis"
+  }
+}
