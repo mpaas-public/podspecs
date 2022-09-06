@@ -1,0 +1,54 @@
+{
+  "name": "AntVerify",
+  "version": "1.0.0.220906113009",
+  "summary": "AntVerify - 支付宝钱包AntVerify类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AntVerify",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntVerify/1_0_0_220906113009.tar.gz"
+  },
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation",
+    "AVFoundation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "libraries": [
+    "c++",
+    "c++.1",
+    "c++abi"
+  ],
+  "vendored_frameworks": "",
+  "resources": "",
+  "dependencies": {
+    "AlipayVerifySDK": [],
+    "APPSecuritySDK": [],
+    "BioAuthAPI": [],
+    "MPRemoteLogging": [],
+    "ZolozIdentityManager": [],
+    "ZolozOpenPlatformBuild": [],
+    "ZolozSensorServices": [],
+    "ZolozUtility": [],
+    "BioAuthEngine": [],
+    "APBToygerFacade": [],
+    "ToygerService": [],
+    "OCRDetectSDKForTech": [],
+    "AliyunIdentityManager": [],
+    "ZolozMobileRPC": []
+  },
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntVerify"
+  },
+  "requires_arc": true
+}
