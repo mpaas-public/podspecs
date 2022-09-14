@@ -3,11 +3,9 @@
   "version": "1.0.0.200617200946",
   "summary": "xnn模型预览",
   "description": "xnn模型预览",
-  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "shifei": "shifei.wkp@antfin.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

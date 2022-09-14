@@ -3,11 +3,9 @@
   "version": "1.0.0.201211183943",
   "summary": "FullLinkTracker - 支付宝钱包FullLinkTracker类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/FullLinkTracker",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

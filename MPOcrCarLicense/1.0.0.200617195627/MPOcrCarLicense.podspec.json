@@ -3,11 +3,9 @@
   "version": "1.0.0.200617195627",
   "summary": "MPOcrCarLicense - 支付宝钱包MPOcrCarLicense类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/MPOcrCarLicense",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

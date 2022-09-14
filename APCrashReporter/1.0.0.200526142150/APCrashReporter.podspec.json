@@ -3,11 +3,9 @@
   "version": "1.0.0.200526142150",
   "summary": "APCrashReporter",
   "description": "",
-  "homepage": "http://www.alipay.com/APCrashReporter",
-  "license": "MIT (example)",
-  "authors": {
-    "wenbi": "wenbi@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

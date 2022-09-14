@@ -3,9 +3,9 @@
   "version": "1.0.0.200302192253",
   "summary": "APWebP - 支付宝钱包APWebP类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APWebP",
-  "license": "MIT (example)",
-  "authors": "yifeng.wu@alibaba-inc.com",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

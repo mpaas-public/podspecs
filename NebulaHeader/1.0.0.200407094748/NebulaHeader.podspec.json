@@ -3,11 +3,9 @@
   "version": "1.0.0.200407094748",
   "summary": "支付宝钱包NebulaHeader类库",
   "description": "支付宝钱包NebulaHeader类库",
-  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/NebulaHeader",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "lin.weng": "lin.weng@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "7.0"
   },

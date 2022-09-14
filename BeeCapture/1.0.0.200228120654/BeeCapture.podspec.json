@@ -3,11 +3,9 @@
   "version": "1.0.0.200228120654",
   "summary": "BeeCapture - 视频采集组件",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/BeeCapture",
-  "license": "MIT (example)",
-  "authors": {
-    "远尘": "hua.lu@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

@@ -3,11 +3,9 @@
   "version": "1.0.0.200525171627",
   "summary": "MPMgsAdapter - 支付宝钱包MPMgsAdapter类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/MPMgsAdapter",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "未定义": "mingyu.ymy@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

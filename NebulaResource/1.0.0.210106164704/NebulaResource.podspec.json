@@ -3,11 +3,9 @@
   "version": "1.0.0.210106164704",
   "summary": "NebulaResource - 支付宝钱包NebulaResource类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/NebulaResource",
-  "license": "MIT (example)",
-  "authors": {
-    "tina.zl": "tina.zl@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

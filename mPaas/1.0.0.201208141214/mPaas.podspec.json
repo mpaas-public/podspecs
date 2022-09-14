@@ -3,11 +3,9 @@
   "version": "1.0.0.201208141214",
   "summary": "基础库.",
   "description": "基础库MobileFundation.",
-  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/mPaas",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "夜禹": "mingyu.ymy@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

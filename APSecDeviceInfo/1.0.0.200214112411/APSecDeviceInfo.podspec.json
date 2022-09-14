@@ -3,14 +3,9 @@
   "version": "1.0.0.200214112411",
   "summary": "安全SDK设备信息",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APSecDeviceInfo",
-  "license": {
-    "type": "Copyright",
-    "text": "           Alibaba-INC copyright\n"
-  },
-  "authors": {
-    "丘壑": "shaoqing.msq@alibaba-inc.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

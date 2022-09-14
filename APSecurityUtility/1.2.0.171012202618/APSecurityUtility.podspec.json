@@ -3,11 +3,9 @@
   "version": "1.2.0.171012202618",
   "summary": "APSecurityUtility - 支付宝钱包APSecurityUtility类库",
   "description": "*",
-  "homepage": "http://www.alipay.com/APSecurityUtility",
-  "license": "MIT (example)",
-  "authors": {
-    "念夕": "wuqian.wq@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "6.0"
   },

@@ -3,11 +3,9 @@
   "version": "1.0.0.201207163201",
   "summary": "AriverTraceDebug - AriverTraceDebug",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AriverTraceDebug",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

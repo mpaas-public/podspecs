@@ -3,11 +3,9 @@
   "version": "1.0.0.200526143714",
   "summary": "mPaaS push SDK",
   "description": "push仓库",
-  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPPushSDK",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "禾兮": "vivi.yw@alibaba-inc.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

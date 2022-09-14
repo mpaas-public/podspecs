@@ -3,11 +3,9 @@
   "version": "1.0.0.200228181541",
   "summary": "APBLESDK - 支付宝钱包APBLESDK类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APBLESDK",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "任飞": "landong.zhao@antfin.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "7.0"
   },

@@ -3,11 +3,9 @@
   "version": "10.1.92.210910122027",
   "summary": "AriverSecurity - 支付宝钱包AriverSecurity类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AriverSecurity",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

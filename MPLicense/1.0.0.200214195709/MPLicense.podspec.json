@@ -3,11 +3,9 @@
   "version": "1.0.0.200214195709",
   "summary": "基础库.",
   "description": "基础库MobileFundation.",
-  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPLicense",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "古塘": "tian.tang@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

@@ -3,11 +3,9 @@
   "version": "1.0.0.200228103520",
   "summary": "AliUpgradeUI - 支付宝钱包AliUpgradeUI类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AliUpgradeUI",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
