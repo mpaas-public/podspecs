@@ -3,11 +3,9 @@
   "version": "1.0.0.200407101856",
   "summary": "BeePhotoPicker - 支付宝BeePhotoPicker类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/BeePhotoPicker",
-  "license": "MIT (example)",
-  "authors": {
-    "晏之": "shijie.sj@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "7.0"
   },

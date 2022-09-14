@@ -3,11 +3,9 @@
   "version": "1.0.0.220629112944",
   "summary": "NebulaSDKPlugins - 支付宝钱包NebulaSDKPlugins类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/NebulaSDKPlugins",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
