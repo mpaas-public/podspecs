@@ -3,11 +3,9 @@
   "version": "1.0.0.210225104536",
   "summary": "BeeCityPicker - 支付宝BeeCityPicker类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/BeeCityPicker",
-  "license": "MIT (example)",
-  "authors": {
-    "晏之": "shijie.sj@alibaba-inc.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "7.0"
   },

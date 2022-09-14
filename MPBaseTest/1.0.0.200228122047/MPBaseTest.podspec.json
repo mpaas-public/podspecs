@@ -3,11 +3,9 @@
   "version": "1.0.0.200228122047",
   "summary": "移动网关 Demo",
   "description": "移动网关相关功能 demo，包括：",
-  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "shifei": "shifei.wkp@antfin.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

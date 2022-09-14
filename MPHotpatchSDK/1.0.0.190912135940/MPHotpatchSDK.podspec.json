@@ -3,11 +3,9 @@
   "version": "1.0.0.190912135940",
   "summary": "hotpatch热修复库",
   "description": "mPaaS对外提供版本，可通过 APP Store审核",
-  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPHotpatchSDK",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "夜禹": "mingyu.ymy@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

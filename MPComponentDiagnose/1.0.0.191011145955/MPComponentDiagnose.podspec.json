@@ -3,11 +3,9 @@
   "version": "1.0.0.191011145955",
   "summary": "组件功能诊断",
   "description": "组件功能诊断，包括：",
-  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "yeyu": ""
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

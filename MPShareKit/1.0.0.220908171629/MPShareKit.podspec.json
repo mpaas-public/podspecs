@@ -3,11 +3,9 @@
   "version": "1.0.0.220908171629",
   "summary": "分享库",
   "description": "mPaaS社交分享库，包括微信、qq、微博、钉钉、支付宝登渠道",
-  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPShareKit",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "夜禹": "mingyu.ymy@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

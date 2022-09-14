@@ -3,11 +3,9 @@
   "version": "1.0.0.210125105248",
   "summary": "MPaaS 开发助手",
   "description": "",
-  "homepage": "http://EXAMPLE/MPDevHelper",
-  "license": "MIT (example)",
-  "authors": {
-    "阔悬": "lq169592@antfin.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

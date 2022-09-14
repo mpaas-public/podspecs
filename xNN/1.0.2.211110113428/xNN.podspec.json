@@ -3,11 +3,9 @@
   "version": "1.0.2.211110113428",
   "summary": "xNN - 支付宝钱包xNN类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/xNN",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

@@ -3,11 +3,9 @@
   "version": "1.0.0.210618180916",
   "summary": "MAS接口库.",
   "description": "MAS接口库.",
-  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPPerformance",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "夜禹": "mingyu.ymy@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
