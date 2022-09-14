@@ -3,11 +3,9 @@
   "version": "1.0.0.211217172806",
   "summary": "libyuv - 支付宝钱包libyuv类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/libyuv",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

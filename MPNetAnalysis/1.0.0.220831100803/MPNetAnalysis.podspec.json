@@ -3,11 +3,9 @@
   "version": "1.0.0.220831100803",
   "summary": "MPNetAnalysis - mPaaS 网络探测库",
   "description": "* Detail about this framework.",
-  "homepage": "http://gitlab.alipay-inc.com/mPaaS_SDK_iOS/MPNetAnalysisSDK",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "xiaomu": "zhengyumin.zym@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

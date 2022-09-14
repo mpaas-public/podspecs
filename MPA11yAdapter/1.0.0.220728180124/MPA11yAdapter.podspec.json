@@ -3,11 +3,9 @@
   "version": "1.0.0.220728180124",
   "summary": "MPA11yAdapter - 支付宝钱包MPA11yAdapter类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/MPA11yAdapter",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

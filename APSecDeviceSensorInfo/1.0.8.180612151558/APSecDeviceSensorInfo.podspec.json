@@ -3,14 +3,9 @@
   "version": "1.0.8.180612151558",
   "summary": "安全sdk传感器信息",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APSecDeviceSensorInfo",
-  "license": {
-    "type": "Copyright",
-    "text": "           Alibaba-INC copyright\n"
-  },
-  "authors": {
-    "行辰": "xingchen.ln@alibaba-inc.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
