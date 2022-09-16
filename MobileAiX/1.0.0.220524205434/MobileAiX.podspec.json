@@ -3,11 +3,9 @@
   "version": "1.0.0.220524205434",
   "summary": "MobileAiX - 支付宝钱包MobileAiX类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/MobileAiX",
-  "license": "MIT (example)",
-  "authors": {
-    "沉锋": "minxing.zmx@alibaba-inc.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "9.0"
   },

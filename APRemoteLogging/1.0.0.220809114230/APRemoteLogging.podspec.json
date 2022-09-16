@@ -3,11 +3,9 @@
   "version": "1.0.0.220809114230",
   "summary": "APRemoteLogging - 业务埋点",
   "description": "* 业务埋点",
-  "homepage": "http://www.alipay.com/APRemoteLogging",
-  "license": "MIT (example)",
-  "authors": {
-    "wenbi": "wenbi@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

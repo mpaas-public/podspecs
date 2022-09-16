@@ -3,11 +3,9 @@
   "version": "1.0.0.211013181623",
   "summary": "AutoTracker - 支付宝钱包AutoTracker类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AutoTracker",
-  "license": "MIT (example)",
-  "authors": {
-    "卡迩": "lj94409@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

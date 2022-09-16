@@ -3,11 +3,9 @@
   "version": "1.0.0.220309162127",
   "summary": "BeeYouKuPlayerWrapper - 支付宝钱包BeeYouKuPlayerWrapper类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/BeeYouKuPlayerWrapper",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

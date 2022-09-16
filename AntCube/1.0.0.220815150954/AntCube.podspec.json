@@ -3,11 +3,9 @@
   "version": "1.0.0.220815150954",
   "summary": "AntCube - 支付宝钱包CubeKit引擎",
   "description": "* Detail about this framework.",
-  "homepage": "https://www.alipay.com/AntCube",
-  "license": "MIT (example)",
-  "authors": {
-    "达梦": "zhuocheng.lzc@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

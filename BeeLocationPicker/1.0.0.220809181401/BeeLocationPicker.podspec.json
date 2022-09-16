@@ -3,11 +3,9 @@
   "version": "1.0.0.220809181401",
   "summary": "BeeLocationPicker - 支付宝BeeLocationPicker类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/BeeLocationPicker",
-  "license": "MIT (example)",
-  "authors": {
-    "莜阳": "aixiang.sax@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "7.0"
   },

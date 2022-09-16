@@ -3,11 +3,9 @@
   "version": "1.0.0.220630143928",
   "summary": "AriverWifi - 支付宝钱包AriverWifi类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AriverWifi",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "异草": "qiuping.zhou@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

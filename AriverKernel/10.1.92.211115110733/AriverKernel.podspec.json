@@ -3,11 +3,9 @@
   "version": "10.1.92.211115110733",
   "summary": "AriverKernel - 支付宝钱包AriverKernel类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AriverKernel",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

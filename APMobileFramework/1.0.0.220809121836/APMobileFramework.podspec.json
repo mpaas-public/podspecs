@@ -3,11 +3,9 @@
   "version": "1.0.0.220809121836",
   "summary": "APMobileFramework - Mobile Framework",
   "description": "* Context\n* Micro app management\n* Micro service management",
-  "homepage": "http://www.alipay.com/APMobileFramework",
-  "license": "MIT (example)",
-  "authors": {
-    "wenbi": "wenbi@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

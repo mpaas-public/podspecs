@@ -3,11 +3,9 @@
   "version": "1.0.1.220809143358",
   "summary": "APMobileLBS - 支付宝APMobileLBS类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APMobileLBS",
-  "license": "MIT (example)",
-  "authors": {
-    "天作": "sen.wangs@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

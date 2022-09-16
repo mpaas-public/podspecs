@@ -3,11 +3,9 @@
   "version": "1.0.0.220623112631",
   "summary": "APCubePlayground - 支付宝钱包APCubePlayground类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/APCubePlayground",
-  "license": "MIT (example)",
-  "authors": {
-    "jiayou": "tengsong.ts@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

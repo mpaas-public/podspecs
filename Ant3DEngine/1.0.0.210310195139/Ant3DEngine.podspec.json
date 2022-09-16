@@ -3,11 +3,9 @@
   "version": "1.0.0.210310195139",
   "summary": "Ant3DEngine - 支付宝钱包Ant3DEngine类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/Ant3DEngine",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
