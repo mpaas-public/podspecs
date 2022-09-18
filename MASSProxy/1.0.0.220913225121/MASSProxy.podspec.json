@@ -1,0 +1,31 @@
+{
+  "name": "MASSProxy",
+  "version": "1.0.0.220913225121",
+  "summary": "MASSProxy - 支付宝钱包MASSProxy类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MASSProxy/1_0_0_220913225121.tar.gz"
+  },
+  "preserve_paths": "MASSProxy.framework/*",
+  "resources": "MASSProxy.framework/*.bundle",
+  "dependencies": {
+    "APMobileFoundation": [],
+    "MASSChannel": [],
+    "AMNet": [],
+    "MPDataCenter": [],
+    "APLog": [],
+    "APRemoteLogging": [],
+    "AntNetworkAdapter": []
+  },
+  "vendored_frameworks": "MASSProxy.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MASSProxy"
+  }
+}
