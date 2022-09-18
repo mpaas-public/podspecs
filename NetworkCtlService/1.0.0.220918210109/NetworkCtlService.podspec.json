@@ -1,0 +1,35 @@
+{
+  "name": "NetworkCtlService",
+  "version": "1.0.0.220918210109",
+  "summary": "NetworkCtlService - 支付宝钱包NetworkCtlService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NetworkCtlService/1_0_0_220918210109.tar.gz"
+  },
+  "preserve_paths": "NetworkCtlService.framework/*",
+  "resources": "NetworkCtlService.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "AMRPC": [],
+    "AMNet": [],
+    "APProtocolBuffers": [],
+    "MASSProxy": [],
+    "MASSChannel": [],
+    "APLog": [],
+    "APBaseInterfaceAdapter": [],
+    "AntNetworkAdapter": []
+  },
+  "vendored_frameworks": "NetworkCtlService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NetworkCtlService"
+  }
+}
