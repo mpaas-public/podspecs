@@ -3,11 +3,9 @@
   "version": "1.0.0.220104114223",
   "summary": "模型管理",
   "description": "模型管理",
-  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "shifei": "shifei.wkp@antfin.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

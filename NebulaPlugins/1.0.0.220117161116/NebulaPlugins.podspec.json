@@ -3,11 +3,9 @@
   "version": "1.0.0.220117161116",
   "summary": "NebulaPlugins - Wallet NebulaPlugins Library",
   "description": "Detail about this framework.",
-  "homepage": "http://www.alipay.com/NebulaPlugins",
-  "license": "MIT (example)",
-  "authors": {
-    "test": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

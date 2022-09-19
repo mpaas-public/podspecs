@@ -3,11 +3,9 @@
   "version": "10.1.80.211220195331",
   "summary": "AntUI - 支付宝钱包AntUI类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AntUI",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },

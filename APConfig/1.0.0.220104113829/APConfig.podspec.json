@@ -3,11 +3,9 @@
   "version": "1.0.0.220104113829",
   "summary": "APConfig - 统一开关",
   "description": "* 统一开关",
-  "homepage": "http://www.alipay.com/APConfig",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "wenbi": "wenbi@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "6.0"
   },
