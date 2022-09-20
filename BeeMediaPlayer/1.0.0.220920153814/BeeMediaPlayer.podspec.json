@@ -1,0 +1,35 @@
+{
+  "name": "BeeMediaPlayer",
+  "version": "1.0.0.220920153814",
+  "summary": "BeeMediaPlayer - 支付宝钱包BeeMediaPlayer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeMediaPlayer/1_0_0_220920153814.tar.gz"
+  },
+  "preserve_paths": "BeeMediaPlayer.framework/*",
+  "resources": "BeeMediaPlayer.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APConfig": [],
+    "NebulaSDK": [],
+    "mPaas": [],
+    "Nebula": [],
+    "NebulaHeader": []
+  },
+  "frameworks": [
+    "MediaPlayer",
+    "Accelerate"
+  ],
+  "vendored_frameworks": "BeeMediaPlayer.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeMediaPlayer"
+  }
+}
