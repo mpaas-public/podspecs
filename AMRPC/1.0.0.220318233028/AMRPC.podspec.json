@@ -3,11 +3,9 @@
   "version": "1.0.0.220318233028",
   "summary": "AMRPC - 支付宝钱包AMRPC类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/AMRPC",
-  "license": "MIT (example)",
-  "authors": {
-    "天作": "sen.wangs@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
