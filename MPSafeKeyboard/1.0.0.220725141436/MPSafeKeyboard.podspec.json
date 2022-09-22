@@ -3,11 +3,9 @@
   "version": "1.0.0.220725141436",
   "summary": "MPSafeKeyboard - mPaaS 安全键盘",
   "description": "* Detail about this framework.",
-  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPSafeKeyboard",
+  "homepage": "https://www.mpaas.com/",
   "license": "MIT",
-  "authors": {
-    "千平": "wenzhao.ywz@alipay.com"
-  },
+  "authors": "mPaaS",
   "platforms": {
     "ios": "8.0"
   },

@@ -3,11 +3,9 @@
   "version": "1.0.0.220707110621",
   "summary": "zolozIdentitySDK - 支付宝钱包zolozIdentitySDK类库",
   "description": "* Detail about this framework.",
-  "homepage": "http://www.alipay.com/zolozIdentitySDK",
-  "license": "MIT (example)",
-  "authors": {
-    "未定义": "undefined@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "9.0"
   },
