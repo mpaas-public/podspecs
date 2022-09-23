@@ -3,11 +3,9 @@
   "version": "1.0.0.210711152815",
   "summary": "APMobileNetwork - A set of classes for network access",
   "description": "* A set of classes for network access",
-  "homepage": "http://www.alipay.com/APMobileNetwork",
-  "license": "MIT (example)",
-  "authors": {
-    "wenbi": "wenbi@alipay.com"
-  },
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
   "platforms": {
     "ios": "5.0"
   },
