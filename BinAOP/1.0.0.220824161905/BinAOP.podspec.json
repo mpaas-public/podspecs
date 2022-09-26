@@ -1,1 +1,30 @@
-{"name":"BinAOP","version":"1.0.0.220824161905","summary":"BinAOP - 支付宝钱包BinAOP类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BinAOP/1_0_0_220824161905.tar.gz"},"preserve_paths":"BinAOP.framework/*","resources":"BinAOP.framework/*.bundle","dependencies":{"mPaas":[],"APRemoteLogging":[],"APConfig":[],"APMobileFramework":[],"APMobileNetwork":[],"MPMgsAdapter":[]},"vendored_frameworks":"BinAOP.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/BinAOP"}}
+{
+  "name": "BinAOP",
+  "version": "1.0.0.220824161905",
+  "summary": "BinAOP - 支付宝钱包BinAOP类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BinAOP/1_0_0_220824161905.tar.gz"
+  },
+  "preserve_paths": "BinAOP.framework/*",
+  "resources": "BinAOP.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "MPMgsAdapter": []
+  },
+  "vendored_frameworks": "BinAOP.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BinAOP"
+  }
+}
