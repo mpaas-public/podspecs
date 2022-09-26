@@ -1,1 +1,26 @@
-{"name":"MPDiagnosis","version":"1.0.0.220822141820","summary":"MPDiagnosis - 支付宝钱包MPDiagnosis类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDiagnosis/1_0_0_220822141820.tar.gz"},"preserve_paths":"MPDiagnosis.framework/*","resources":"MPDiagnosis.framework/*.bundle","dependencies":{"APLongLinkService":[],"mPaas":[]},"vendored_frameworks":"MPDiagnosis.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPDiagnosis"}}
+{
+  "name": "MPDiagnosis",
+  "version": "1.0.0.220822141820",
+  "summary": "MPDiagnosis - 支付宝钱包MPDiagnosis类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDiagnosis/1_0_0_220822141820.tar.gz"
+  },
+  "preserve_paths": "MPDiagnosis.framework/*",
+  "resources": "MPDiagnosis.framework/*.bundle",
+  "dependencies": {
+    "APLongLinkService": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "MPDiagnosis.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDiagnosis"
+  }
+}
