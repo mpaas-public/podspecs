@@ -1,1 +1,25 @@
-{"name":"xNN","version":"1.0.2.211110113428","summary":"xNN - 支付宝钱包xNN类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"8.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/xNN/1_0_2_211110113428.tar.gz"},"preserve_paths":"xNN.framework/*","resources":"xNN.framework/*.bundle","dependencies":{"APMUtils":[]},"vendored_frameworks":"xNN.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/xNN"}}
+{
+  "name": "xNN",
+  "version": "1.0.2.211110113428",
+  "summary": "xNN - 支付宝钱包xNN类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/xNN/1_0_2_211110113428.tar.gz"
+  },
+  "preserve_paths": "xNN.framework/*",
+  "resources": "xNN.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": []
+  },
+  "vendored_frameworks": "xNN.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/xNN"
+  }
+}

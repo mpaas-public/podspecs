@@ -1,1 +1,29 @@
-{"name":"BeePhotoPicker","version":"1.0.0.220908145738","summary":"BeePhotoPicker - 支付宝BeePhotoPicker类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"7.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhotoPicker/1_0_0_220908145738.tar.gz"},"preserve_paths":"BeePhotoPicker.framework/*","resources":"BeePhotoPicker.framework/*.bundle","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"APRemoteLogging":[],"APCommonUI":[],"Nebula":[]},"vendored_frameworks":"BeePhotoPicker.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/BeePhotoPicker"}}
+{
+  "name": "BeePhotoPicker",
+  "version": "1.0.0.220908145738",
+  "summary": "BeePhotoPicker - 支付宝BeePhotoPicker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhotoPicker/1_0_0_220908145738.tar.gz"
+  },
+  "preserve_paths": "BeePhotoPicker.framework/*",
+  "resources": "BeePhotoPicker.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "APCommonUI": [],
+    "Nebula": []
+  },
+  "vendored_frameworks": "BeePhotoPicker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeePhotoPicker"
+  }
+}

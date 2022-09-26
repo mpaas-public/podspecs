@@ -1,1 +1,21 @@
-{"name":"APSecDeviceSensorInfo","version":"1.0.8.180612151558","summary":"安全sdk传感器信息","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APSecDeviceSensorInfo/1_0_8_180612151558.tar.gz"},"preserve_paths":"APSecDeviceSensorInfo.framework/*","vendored_frameworks":"APSecDeviceSensorInfo.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APSecDeviceSensorInfo"}}
+{
+  "name": "APSecDeviceSensorInfo",
+  "version": "1.0.8.180612151558",
+  "summary": "安全sdk传感器信息",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APSecDeviceSensorInfo/1_0_8_180612151558.tar.gz"
+  },
+  "preserve_paths": "APSecDeviceSensorInfo.framework/*",
+  "vendored_frameworks": "APSecDeviceSensorInfo.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APSecDeviceSensorInfo"
+  }
+}

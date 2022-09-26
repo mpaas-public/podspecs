@@ -1,1 +1,16 @@
-{"name":"MPOcrDriverLicense","version":"1.0.0.200617195627","summary":"MPOcrDriverLicense - 支付宝钱包MPOcrDriverLicense类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcrDriverLicense/1_0_0_200617195627.tar.gz"},"resources":"MPOcrDriverLicense.framework/*.bundle"}
+{
+  "name": "MPOcrDriverLicense",
+  "version": "1.0.0.200617195627",
+  "summary": "MPOcrDriverLicense - 支付宝钱包MPOcrDriverLicense类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcrDriverLicense/1_0_0_200617195627.tar.gz"
+  },
+  "resources": "MPOcrDriverLicense.framework/*.bundle"
+}

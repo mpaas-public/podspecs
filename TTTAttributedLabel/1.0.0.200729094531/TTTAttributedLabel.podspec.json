@@ -1,1 +1,22 @@
-{"name":"TTTAttributedLabel","version":"1.0.0.200729094531","summary":"TTTAttributedLabel - 支付宝钱包TTTAttributedLabel类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TTTAttributedLabel/1_0_0_200729094531.tar.gz"},"preserve_paths":"TTTAttributedLabel.framework/*","resources":"TTTAttributedLabel.framework/*.bundle","vendored_frameworks":"TTTAttributedLabel.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/TTTAttributedLabel"}}
+{
+  "name": "TTTAttributedLabel",
+  "version": "1.0.0.200729094531",
+  "summary": "TTTAttributedLabel - 支付宝钱包TTTAttributedLabel类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TTTAttributedLabel/1_0_0_200729094531.tar.gz"
+  },
+  "preserve_paths": "TTTAttributedLabel.framework/*",
+  "resources": "TTTAttributedLabel.framework/*.bundle",
+  "vendored_frameworks": "TTTAttributedLabel.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TTTAttributedLabel"
+  }
+}

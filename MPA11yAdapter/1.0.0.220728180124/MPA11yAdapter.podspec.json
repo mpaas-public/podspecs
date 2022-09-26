@@ -1,1 +1,27 @@
-{"name":"MPA11yAdapter","version":"1.0.0.220728180124","summary":"MPA11yAdapter - 支付宝钱包MPA11yAdapter类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPA11yAdapter/1_0_0_220728180124.tar.gz"},"preserve_paths":"MPA11yAdapter.framework/*","frameworks":"WebKit","dependencies":{"APA11yTestBase":[],"SecurityGuardSDK":[],"APOpenSSL":[]},"vendored_frameworks":"MPA11yAdapter.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPA11yAdapter"}}
+{
+  "name": "MPA11yAdapter",
+  "version": "1.0.0.220728180124",
+  "summary": "MPA11yAdapter - 支付宝钱包MPA11yAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPA11yAdapter/1_0_0_220728180124.tar.gz"
+  },
+  "preserve_paths": "MPA11yAdapter.framework/*",
+  "frameworks": "WebKit",
+  "dependencies": {
+    "APA11yTestBase": [],
+    "SecurityGuardSDK": [],
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "MPA11yAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPA11yAdapter"
+  }
+}

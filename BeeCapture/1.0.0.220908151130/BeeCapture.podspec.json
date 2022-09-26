@@ -1,1 +1,32 @@
-{"name":"BeeCapture","version":"1.0.0.220908151130","summary":"BeeCapture - 视频采集组件","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeCapture/1_0_0_220908151130.tar.gz"},"preserve_paths":"BeeCapture.framework/*","resources":"BeeCapture.framework/*.bundle","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"APMultimedia":[],"APRemoteLogging":[],"APLog":[],"APCommonUI":[],"Nebula":[],"SPMTracker":[]},"vendored_frameworks":"BeeCapture.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/BeeCapture"}}
+{
+  "name": "BeeCapture",
+  "version": "1.0.0.220908151130",
+  "summary": "BeeCapture - 视频采集组件",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeCapture/1_0_0_220908151130.tar.gz"
+  },
+  "preserve_paths": "BeeCapture.framework/*",
+  "resources": "BeeCapture.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APMultimedia": [],
+    "APRemoteLogging": [],
+    "APLog": [],
+    "APCommonUI": [],
+    "Nebula": [],
+    "SPMTracker": []
+  },
+  "vendored_frameworks": "BeeCapture.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeCapture"
+  }
+}

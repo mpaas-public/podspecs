@@ -1,1 +1,27 @@
-{"name":"APRemoteLogging","version":"1.0.0.220923124040","summary":"APRemoteLogging - 业务埋点","description":"* 业务埋点","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APRemoteLogging/1_0_0_220923124040.tar.gz"},"preserve_paths":"APRemoteLogging.framework/*","resources":"APRemoteLogging.framework/*.bundle","dependencies":{"mPaas":[],"APProtocolBuffers":[]},"frameworks":"CoreTelephony","vendored_frameworks":"APRemoteLogging.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APRemoteLogging"}}
+{
+  "name": "APRemoteLogging",
+  "version": "1.0.0.220923124040",
+  "summary": "APRemoteLogging - 业务埋点",
+  "description": "* 业务埋点",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APRemoteLogging/1_0_0_220923124040.tar.gz"
+  },
+  "preserve_paths": "APRemoteLogging.framework/*",
+  "resources": "APRemoteLogging.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APProtocolBuffers": []
+  },
+  "frameworks": "CoreTelephony",
+  "vendored_frameworks": "APRemoteLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APRemoteLogging"
+  }
+}

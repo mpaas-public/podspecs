@@ -1,1 +1,22 @@
-{"name":"APWebP","version":"1.0.0.200302192253","summary":"APWebP - 支付宝钱包APWebP类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APWebP/1_0_0_200302192253.tar.gz"},"preserve_paths":"APWebP.framework/*","resources":"APWebP.framework/*.bundle","vendored_frameworks":"APWebP.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APWebP"}}
+{
+  "name": "APWebP",
+  "version": "1.0.0.200302192253",
+  "summary": "APWebP - 支付宝钱包APWebP类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APWebP/1_0_0_200302192253.tar.gz"
+  },
+  "preserve_paths": "APWebP.framework/*",
+  "resources": "APWebP.framework/*.bundle",
+  "vendored_frameworks": "APWebP.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APWebP"
+  }
+}

@@ -1,1 +1,16 @@
-{"name":"MPOcrCarLicense","version":"1.0.0.200617195627","summary":"MPOcrCarLicense - 支付宝钱包MPOcrCarLicense类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcrCarLicense/1_0_0_200617195627.tar.gz"},"resources":"MPOcrCarLicense.framework/*.bundle"}
+{
+  "name": "MPOcrCarLicense",
+  "version": "1.0.0.200617195627",
+  "summary": "MPOcrCarLicense - 支付宝钱包MPOcrCarLicense类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcrCarLicense/1_0_0_200617195627.tar.gz"
+  },
+  "resources": "MPOcrCarLicense.framework/*.bundle"
+}

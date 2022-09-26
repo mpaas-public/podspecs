@@ -1,1 +1,27 @@
-{"name":"APMLogging","version":"1.0.0.200716133857","summary":"APMLogging - 支付宝钱包APMLogging类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMLogging/1_0_0_200716133857.tar.gz"},"preserve_paths":"APMLogging.framework/*","resources":"APMLogging.framework/*.bundle","dependencies":{"APMUtils":[],"APLog":[],"APRemoteLogging":[]},"vendored_frameworks":"APMLogging.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APMLogging"}}
+{
+  "name": "APMLogging",
+  "version": "1.0.0.200716133857",
+  "summary": "APMLogging - 支付宝钱包APMLogging类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMLogging/1_0_0_200716133857.tar.gz"
+  },
+  "preserve_paths": "APMLogging.framework/*",
+  "resources": "APMLogging.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APLog": [],
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "APMLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMLogging"
+  }
+}

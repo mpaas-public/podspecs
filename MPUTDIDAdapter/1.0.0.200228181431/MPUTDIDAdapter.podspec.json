@@ -1,1 +1,22 @@
-{"name":"MPUTDIDAdapter","version":"1.0.0.200228181431","summary":"MPUTDIDAdapter - MPUTDIDAdapter","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"8.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPUTDIDAdapter/1_0_0_200228181431.tar.gz"},"preserve_paths":"MPUTDIDAdapter.framework/*","dependencies":{},"vendored_frameworks":"MPUTDIDAdapter.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPUTDIDAdapter"}}
+{
+  "name": "MPUTDIDAdapter",
+  "version": "1.0.0.200228181431",
+  "summary": "MPUTDIDAdapter - MPUTDIDAdapter",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPUTDIDAdapter/1_0_0_200228181431.tar.gz"
+  },
+  "preserve_paths": "MPUTDIDAdapter.framework/*",
+  "dependencies": {},
+  "vendored_frameworks": "MPUTDIDAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPUTDIDAdapter"
+  }
+}

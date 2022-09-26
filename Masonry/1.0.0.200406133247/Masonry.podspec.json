@@ -1,1 +1,22 @@
-{"name":"Masonry","version":"1.0.0.200406133247","summary":"Masonry - 支付宝钱包Masonry类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Masonry/1_0_0_200406133247.tar.gz"},"preserve_paths":"Masonry.framework/*","resources":"Masonry.framework/*.bundle","vendored_frameworks":"Masonry.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/Masonry"}}
+{
+  "name": "Masonry",
+  "version": "1.0.0.200406133247",
+  "summary": "Masonry - 支付宝钱包Masonry类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Masonry/1_0_0_200406133247.tar.gz"
+  },
+  "preserve_paths": "Masonry.framework/*",
+  "resources": "Masonry.framework/*.bundle",
+  "vendored_frameworks": "Masonry.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Masonry"
+  }
+}
