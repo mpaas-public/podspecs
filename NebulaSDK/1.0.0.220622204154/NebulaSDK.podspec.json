@@ -1,1 +1,27 @@
-{"name":"NebulaSDK","version":"1.0.0.220622204154","summary":"NebulaSDK - Nebula类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDK/1_0_0_220622204154.tar.gz"},"preserve_paths":"NebulaSDK.framework/*","resources":"NebulaSDK.framework/*.bundle","dependencies":{"NebulaPoseidon":[],"NebulaAppManager":[],"APLog":[]},"vendored_frameworks":"NebulaSDK.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/NebulaSDK"}}
+{
+  "name": "NebulaSDK",
+  "version": "1.0.0.220622204154",
+  "summary": "NebulaSDK - Nebula类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDK/1_0_0_220622204154.tar.gz"
+  },
+  "preserve_paths": "NebulaSDK.framework/*",
+  "resources": "NebulaSDK.framework/*.bundle",
+  "dependencies": {
+    "NebulaPoseidon": [],
+    "NebulaAppManager": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "NebulaSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaSDK"
+  }
+}
