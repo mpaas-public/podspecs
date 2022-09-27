@@ -1,0 +1,27 @@
+{
+  "name": "AntNetworkAdapter",
+  "version": "1.0.0.220927152147",
+  "summary": "AntNetworkAdapter - 支付宝钱包AntNetworkAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntNetworkAdapter/1_0_0_220927152147.tar.gz"
+  },
+  "preserve_paths": "AntNetworkAdapter.framework/*",
+  "resources": "AntNetworkAdapter.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APMobileFramework": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "AntNetworkAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntNetworkAdapter"
+  }
+}
