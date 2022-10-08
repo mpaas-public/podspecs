@@ -1,1 +1,31 @@
-{"name":"AntWasm","version":"1.0.0.220705104836","summary":"AntWasm - 支付宝钱包AntWasm类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntWasm/1_0_0_220705104836.tar.gz"},"preserve_paths":"AntWasm.framework/*","resources":"AntWasm.framework/*.bundle","dependencies":{"APMobileFramework":[],"APRemoteLogging":[],"mPaas":[],"APConfig":[]},"vendored_frameworks":["AntWasm.framework","Wamr.framework"],"requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/AntWasm"}}
+{
+  "name": "AntWasm",
+  "version": "1.0.0.220705104836",
+  "summary": "AntWasm - 支付宝钱包AntWasm类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntWasm/1_0_0_220705104836.tar.gz"
+  },
+  "preserve_paths": "AntWasm.framework/*",
+  "resources": "AntWasm.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "mPaas": [],
+    "APConfig": []
+  },
+  "vendored_frameworks": [
+    "AntWasm.framework",
+    "Wamr.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntWasm"
+  }
+}

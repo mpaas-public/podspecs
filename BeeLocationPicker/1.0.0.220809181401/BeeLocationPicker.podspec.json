@@ -1,1 +1,32 @@
-{"name":"BeeLocationPicker","version":"1.0.0.220809181401","summary":"BeeLocationPicker - 支付宝BeeLocationPicker类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"7.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeLocationPicker/1_0_0_220809181401.tar.gz"},"preserve_paths":"BeeLocationPicker.framework/*","resources":"BeeLocationPicker.framework/*.bundle","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"AntUI":[],"APLog":[],"APRemoteLogging":[],"Nebula":[],"NebulaPoseidon":[],"APCommonUI":[]},"vendored_frameworks":"BeeLocationPicker.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/BeeLocationPicker"}}
+{
+  "name": "BeeLocationPicker",
+  "version": "1.0.0.220809181401",
+  "summary": "BeeLocationPicker - 支付宝BeeLocationPicker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeLocationPicker/1_0_0_220809181401.tar.gz"
+  },
+  "preserve_paths": "BeeLocationPicker.framework/*",
+  "resources": "BeeLocationPicker.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AntUI": [],
+    "APLog": [],
+    "APRemoteLogging": [],
+    "Nebula": [],
+    "NebulaPoseidon": [],
+    "APCommonUI": []
+  },
+  "vendored_frameworks": "BeeLocationPicker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeLocationPicker"
+  }
+}

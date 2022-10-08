@@ -1,1 +1,32 @@
-{"name":"APLongLinkService","version":"1.0.0.200910205131","summary":"APLongLinkService - 应用内长连接","description":"* 应用内长连接","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLongLinkService/1_0_0_200910205131.tar.gz"},"preserve_paths":"APLongLinkService.framework/*","resources":"APLongLinkService.framework/*.bundle","frameworks":["CoreMotion","MessageUI"],"dependencies":{"APLog":[],"APProtocolBuffers":[],"mPaas":[],"MPDataCenter":[]},"vendored_frameworks":"APLongLinkService.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APLongLinkService"}}
+{
+  "name": "APLongLinkService",
+  "version": "1.0.0.200910205131",
+  "summary": "APLongLinkService - 应用内长连接",
+  "description": "* 应用内长连接",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLongLinkService/1_0_0_200910205131.tar.gz"
+  },
+  "preserve_paths": "APLongLinkService.framework/*",
+  "resources": "APLongLinkService.framework/*.bundle",
+  "frameworks": [
+    "CoreMotion",
+    "MessageUI"
+  ],
+  "dependencies": {
+    "APLog": [],
+    "APProtocolBuffers": [],
+    "mPaas": [],
+    "MPDataCenter": []
+  },
+  "vendored_frameworks": "APLongLinkService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APLongLinkService"
+  }
+}

@@ -1,1 +1,22 @@
-{"name":"AntUIKit","version":"1.0.0.200615214205","summary":"AntUIKit - 支付宝钱包AntUIKit类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"7.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntUIKit/1_0_0_200615214205.tar.gz"},"preserve_paths":"AntUIKit.framework/*","resources":"AntUIKit.framework/*.bundle","vendored_frameworks":"AntUIKit.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/AntUIKit"}}
+{
+  "name": "AntUIKit",
+  "version": "1.0.0.200615214205",
+  "summary": "AntUIKit - 支付宝钱包AntUIKit类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntUIKit/1_0_0_200615214205.tar.gz"
+  },
+  "preserve_paths": "AntUIKit.framework/*",
+  "resources": "AntUIKit.framework/*.bundle",
+  "vendored_frameworks": "AntUIKit.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntUIKit"
+  }
+}

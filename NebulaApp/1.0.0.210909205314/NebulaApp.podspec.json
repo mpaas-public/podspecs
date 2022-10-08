@@ -1,1 +1,46 @@
-{"name":"NebulaApp","version":"1.0.0.210909205314","summary":"NebulaApp - 支付宝钱包NebulaApp类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaApp/1_0_0_210909205314.tar.gz"},"preserve_paths":"NebulaApp.framework/*","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"NebulaResource":[],"NebulaPoseidon":[],"MPDataCenter":[],"AntUI":[],"NebulaAppManager":[],"NebulaSDK":[],"AriverKernel":[],"AriverApp":[],"AriverRuntime":[],"AriverApi":[],"AriverConfig":[],"AriverResource":[],"NebulaKernel":[],"FullLinkTracker":[],"AriverSecurity":[],"Nebula":[],"NebulaBiz":[],"TinyAppCommon":[],"NebulaLogging":[],"NebulaSecurity":[],"SPMTracker":[]},"vendored_frameworks":"NebulaApp.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/NebulaApp"}}
+{
+  "name": "NebulaApp",
+  "version": "1.0.0.210909205314",
+  "summary": "NebulaApp - 支付宝钱包NebulaApp类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaApp/1_0_0_210909205314.tar.gz"
+  },
+  "preserve_paths": "NebulaApp.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "NebulaResource": [],
+    "NebulaPoseidon": [],
+    "MPDataCenter": [],
+    "AntUI": [],
+    "NebulaAppManager": [],
+    "NebulaSDK": [],
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverRuntime": [],
+    "AriverApi": [],
+    "AriverConfig": [],
+    "AriverResource": [],
+    "NebulaKernel": [],
+    "FullLinkTracker": [],
+    "AriverSecurity": [],
+    "Nebula": [],
+    "NebulaBiz": [],
+    "TinyAppCommon": [],
+    "NebulaLogging": [],
+    "NebulaSecurity": [],
+    "SPMTracker": []
+  },
+  "vendored_frameworks": "NebulaApp.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaApp"
+  }
+}

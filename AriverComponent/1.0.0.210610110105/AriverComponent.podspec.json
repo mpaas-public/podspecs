@@ -1,1 +1,27 @@
-{"name":"AriverComponent","version":"1.0.0.210610110105","summary":"AriverComponent - 支付宝钱包AriverComponent类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"9.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverComponent/1_0_0_210610110105.tar.gz"},"preserve_paths":"AriverComponent.framework/*","resources":"AriverComponent.framework/*.bundle","dependencies":{"AriverKernel":[],"AriverApp":[],"AriverRuntime":[]},"vendored_frameworks":"AriverComponent.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/AriverComponent"}}
+{
+  "name": "AriverComponent",
+  "version": "1.0.0.210610110105",
+  "summary": "AriverComponent - 支付宝钱包AriverComponent类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverComponent/1_0_0_210610110105.tar.gz"
+  },
+  "preserve_paths": "AriverComponent.framework/*",
+  "resources": "AriverComponent.framework/*.bundle",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverRuntime": []
+  },
+  "vendored_frameworks": "AriverComponent.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverComponent"
+  }
+}

@@ -1,1 +1,22 @@
-{"name":"FFMpeg","version":"1.0.0.220303152337","summary":"FFMpeg - 支付宝钱包FFMpeg类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/FFMpeg/1_0_0_220303152337.tar.gz"},"preserve_paths":"FFMpeg.framework/*","resources":"FFMpeg.framework/*.bundle","vendored_frameworks":"FFMpeg.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/FFMpeg"}}
+{
+  "name": "FFMpeg",
+  "version": "1.0.0.220303152337",
+  "summary": "FFMpeg - 支付宝钱包FFMpeg类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/FFMpeg/1_0_0_220303152337.tar.gz"
+  },
+  "preserve_paths": "FFMpeg.framework/*",
+  "resources": "FFMpeg.framework/*.bundle",
+  "vendored_frameworks": "FFMpeg.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/FFMpeg"
+  }
+}

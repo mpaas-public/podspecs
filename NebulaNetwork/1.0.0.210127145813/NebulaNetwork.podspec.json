@@ -1,1 +1,39 @@
-{"name":"NebulaNetwork","version":"1.0.0.210127145813","summary":"NebulaNetwork - 支付宝钱包NebulaNetwork类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaNetwork/1_0_0_210127145813.tar.gz"},"preserve_paths":"NebulaNetwork.framework/*","resources":"NebulaNetwork.framework/*.bundle","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"AntUI":[],"Nebula":[],"NebulaPoseidon":[],"NebulaSDK":[],"NebulaConfig":[],"NebulaLogging":[],"MASSProxy":[],"AriverKernel":[],"AriverApp":[],"NebulaResource":[],"MPDataCenter":[],"AriverSecurity":[],"mPaas":[]},"vendored_frameworks":"NebulaNetwork.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/NebulaNetwork"}}
+{
+  "name": "NebulaNetwork",
+  "version": "1.0.0.210127145813",
+  "summary": "NebulaNetwork - 支付宝钱包NebulaNetwork类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaNetwork/1_0_0_210127145813.tar.gz"
+  },
+  "preserve_paths": "NebulaNetwork.framework/*",
+  "resources": "NebulaNetwork.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AntUI": [],
+    "Nebula": [],
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "NebulaConfig": [],
+    "NebulaLogging": [],
+    "MASSProxy": [],
+    "AriverKernel": [],
+    "AriverApp": [],
+    "NebulaResource": [],
+    "MPDataCenter": [],
+    "AriverSecurity": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaNetwork.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaNetwork"
+  }
+}

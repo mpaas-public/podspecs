@@ -1,1 +1,26 @@
-{"name":"MPARAdapter","version":"1.0.0.220411181221","summary":"MPARAdapter - 支付宝钱包MPARAdapter类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPARAdapter/1_0_0_220411181221.tar.gz"},"preserve_paths":"MPARAdapter.framework/*","resources":"MPARAdapter.framework/*.bundle","dependencies":{"APMUtils":[],"XMedia":[]},"vendored_frameworks":"MPARAdapter.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPARAdapter"}}
+{
+  "name": "MPARAdapter",
+  "version": "1.0.0.220411181221",
+  "summary": "MPARAdapter - 支付宝钱包MPARAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPARAdapter/1_0_0_220411181221.tar.gz"
+  },
+  "preserve_paths": "MPARAdapter.framework/*",
+  "resources": "MPARAdapter.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "XMedia": []
+  },
+  "vendored_frameworks": "MPARAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPARAdapter"
+  }
+}
