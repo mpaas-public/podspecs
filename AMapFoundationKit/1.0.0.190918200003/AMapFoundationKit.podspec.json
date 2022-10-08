@@ -1,1 +1,23 @@
-{"name":"AMapFoundationKit","version":"1.0.0.190918200003","summary":"AMapFoundationKit - 支付宝钱包AMapFoundationKit类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapFoundationKit/1_0_0_190918200003.tar.gz"},"preserve_paths":"AMapFoundationKit.framework/*","resources":"AMapFoundationKit.framework/*.bundle","frameworks":"CoreLocation","vendored_frameworks":"AMapFoundationKit.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/AMapFoundationKit"}}
+{
+  "name": "AMapFoundationKit",
+  "version": "1.0.0.190918200003",
+  "summary": "AMapFoundationKit - 支付宝钱包AMapFoundationKit类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapFoundationKit/1_0_0_190918200003.tar.gz"
+  },
+  "preserve_paths": "AMapFoundationKit.framework/*",
+  "resources": "AMapFoundationKit.framework/*.bundle",
+  "frameworks": "CoreLocation",
+  "vendored_frameworks": "AMapFoundationKit.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AMapFoundationKit"
+  }
+}

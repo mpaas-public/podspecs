@@ -1,1 +1,43 @@
-{"name":"NebulaIntegration","version":"1.0.0.220104104056","summary":"NebulaIntegration - 支付宝钱包NebulaIntegration类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaIntegration/1_0_0_220104104056.tar.gz"},"preserve_paths":"NebulaIntegration.framework/*","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"Nebula":[],"NebulaApp":[],"NebulaSDK":[],"NebulaConfig":[],"NebulaLogging":[],"NebulaPlugins":[],"NebulaTinyapp":[],"NebulaPoseidon":[],"NebulaEngine":[],"AriverKernel":[],"AriverResource":[],"AriverRuntime":[],"NebulaResource":[],"NebulaAppBiz":[],"TinyappService":[],"mPaas":[],"NBInside":[],"FullLinkTracker":[]},"vendored_frameworks":"NebulaIntegration.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/NebulaIntegration"}}
+{
+  "name": "NebulaIntegration",
+  "version": "1.0.0.220104104056",
+  "summary": "NebulaIntegration - 支付宝钱包NebulaIntegration类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaIntegration/1_0_0_220104104056.tar.gz"
+  },
+  "preserve_paths": "NebulaIntegration.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "NebulaApp": [],
+    "NebulaSDK": [],
+    "NebulaConfig": [],
+    "NebulaLogging": [],
+    "NebulaPlugins": [],
+    "NebulaTinyapp": [],
+    "NebulaPoseidon": [],
+    "NebulaEngine": [],
+    "AriverKernel": [],
+    "AriverResource": [],
+    "AriverRuntime": [],
+    "NebulaResource": [],
+    "NebulaAppBiz": [],
+    "TinyappService": [],
+    "mPaas": [],
+    "NBInside": [],
+    "FullLinkTracker": []
+  },
+  "vendored_frameworks": "NebulaIntegration.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaIntegration"
+  }
+}

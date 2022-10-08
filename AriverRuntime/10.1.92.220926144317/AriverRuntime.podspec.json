@@ -1,0 +1,37 @@
+{
+  "name": "AriverRuntime",
+  "version": "10.1.92.220926144317",
+  "summary": "AriverRuntime - 支付宝钱包AriverRuntime类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverRuntime/10_1_92_220926144317.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverRuntime-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverRuntime.framework/*",
+  "resources": [
+    "AriverRuntime.framework/*.bundle",
+    "Resources/*.bundle"
+  ],
+  "header_dir": "AriverRuntime",
+  "dependencies": {
+    "AriverApp": [],
+    "AriverConfig": [],
+    "AriverLogger": []
+  },
+  "vendored_frameworks": "AriverRuntime.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverRuntime"
+  },
+  "frameworks": [
+    "WebKit",
+    "JavaScriptCore"
+  ]
+}

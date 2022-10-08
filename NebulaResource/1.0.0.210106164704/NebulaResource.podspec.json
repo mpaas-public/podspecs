@@ -1,1 +1,32 @@
-{"name":"NebulaResource","version":"1.0.0.210106164704","summary":"NebulaResource - 支付宝钱包NebulaResource类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaResource/1_0_0_210106164704.tar.gz"},"preserve_paths":"NebulaResource.framework/*","resources":"NebulaResource.framework/*.bundle","dependencies":{"AriverApp":[],"AriverKernel":[],"AriverResource":[],"APLog":[],"mPaas":[]},"vendored_frameworks":"NebulaResource.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/NebulaResource"},"pod_target_xcconfig":{"OTHER_LDFLAGS":"-lbz2"}}
+{
+  "name": "NebulaResource",
+  "version": "1.0.0.210106164704",
+  "summary": "NebulaResource - 支付宝钱包NebulaResource类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaResource/1_0_0_210106164704.tar.gz"
+  },
+  "preserve_paths": "NebulaResource.framework/*",
+  "resources": "NebulaResource.framework/*.bundle",
+  "dependencies": {
+    "AriverApp": [],
+    "AriverKernel": [],
+    "AriverResource": [],
+    "APLog": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaResource.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaResource"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lbz2"
+  }
+}

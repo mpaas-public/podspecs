@@ -1,1 +1,35 @@
-{"name":"MPPromotion","version":"1.0.0.200928204911","summary":"Promotion - cdp 模块","description":"* appId: 1000000","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"8.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPromotion/1_0_0_200928204911.tar.gz"},"preserve_paths":"MPPromotion.framework/*","resources":"MPPromotion.framework/*.bundle","dependencies":{"APMobileNetwork":[],"APMobileFramework":[],"APCommonUI":[],"APConfig":[],"Nebula":[],"NebulaSDK":[],"NebulaHeader":[],"NebulaBiz":[],"SPMTracker":[],"APRemoteLogging":[],"APMultimedia":[]},"vendored_frameworks":"MPPromotion.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPPromotion"}}
+{
+  "name": "MPPromotion",
+  "version": "1.0.0.200928204911",
+  "summary": "Promotion - cdp 模块",
+  "description": "* appId: 1000000",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPromotion/1_0_0_200928204911.tar.gz"
+  },
+  "preserve_paths": "MPPromotion.framework/*",
+  "resources": "MPPromotion.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "APConfig": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaHeader": [],
+    "NebulaBiz": [],
+    "SPMTracker": [],
+    "APRemoteLogging": [],
+    "APMultimedia": []
+  },
+  "vendored_frameworks": "MPPromotion.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPPromotion"
+  }
+}
