@@ -1,1 +1,31 @@
-{"name":"APConfig","version":"1.0.0.220104113829","summary":"APConfig - 统一开关","description":"* 统一开关","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"6.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APConfig/1_0_0_220104113829.tar.gz"},"preserve_paths":"APConfig.framework/*","dependencies":{"APLog":[],"mPaas":[],"APMobileFramework":[],"APMobileNetwork":[],"APLongLinkService":[],"APRemoteLogging":[],"MPDataCenter":[],"APProtocolBuffers":[]},"vendored_frameworks":"APConfig.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APConfig"}}
+{
+  "name": "APConfig",
+  "version": "1.0.0.220104113829",
+  "summary": "APConfig - 统一开关",
+  "description": "* 统一开关",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APConfig/1_0_0_220104113829.tar.gz"
+  },
+  "preserve_paths": "APConfig.framework/*",
+  "dependencies": {
+    "APLog": [],
+    "mPaas": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "APLongLinkService": [],
+    "APRemoteLogging": [],
+    "MPDataCenter": [],
+    "APProtocolBuffers": []
+  },
+  "vendored_frameworks": "APConfig.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APConfig"
+  }
+}
