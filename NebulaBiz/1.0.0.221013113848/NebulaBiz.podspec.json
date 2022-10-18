@@ -1,0 +1,45 @@
+{
+  "name": "NebulaBiz",
+  "version": "1.0.0.221013113848",
+  "summary": "NebulaBiz - 支付宝钱包NebulaBiz类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaBiz/1_0_0_221013113848.tar.gz"
+  },
+  "preserve_paths": "NebulaBiz.framework/*",
+  "resources": "NebulaBiz.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "APRemoteLogging": [],
+    "Nebula": [],
+    "NebulaKernel": [],
+    "APMultimedia": [],
+    "NebulaAppBiz": [],
+    "AntUI": [],
+    "NebulaLogging": [],
+    "NebulaTinyapp": [],
+    "NebulaConfig": [],
+    "MPDataCenter": [],
+    "TinyAppCommon": [],
+    "NebulaNetwork": [],
+    "NebulaSecurity": [],
+    "mPaas": [],
+    "APOpenSSL": []
+  },
+  "frameworks": [
+    "AudioToolBox",
+    "AVFoundation"
+  ],
+  "vendored_frameworks": "NebulaBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaBiz"
+  }
+}

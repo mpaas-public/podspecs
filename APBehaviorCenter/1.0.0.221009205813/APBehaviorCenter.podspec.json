@@ -1,0 +1,30 @@
+{
+  "name": "APBehaviorCenter",
+  "version": "1.0.0.221009205813",
+  "summary": "APBehaviorCenter - 支付宝钱包APBehaviorCenter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APBehaviorCenter/1_0_0_221009205813.tar.gz"
+  },
+  "preserve_paths": "APBehaviorCenter.framework/*",
+  "dependencies": {
+    "APRemoteLogging": [],
+    "APMobileFramework": [],
+    "APConfig": [],
+    "MobileAiXDataCenter": [],
+    "SPMTracker": [],
+    "AutoTracker": [],
+    "MPUEPSDK": []
+  },
+  "vendored_frameworks": "APBehaviorCenter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APBehaviorCenter"
+  }
+}
