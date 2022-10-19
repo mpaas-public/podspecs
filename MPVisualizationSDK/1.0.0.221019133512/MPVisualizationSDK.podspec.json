@@ -1,0 +1,25 @@
+{
+  "name": "MPVisualizationSDK",
+  "version": "1.0.0.221019133512",
+  "summary": "MPVisualizationSDK - 支付宝钱包MPVisualizationSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPVisualizationSDK/1_0_0_221019133512.tar.gz"
+  },
+  "preserve_paths": "MPVisualizationSDK.framework/*",
+  "dependencies": {
+    "AutoTracker": [],
+    "SocketRocket": []
+  },
+  "vendored_frameworks": "MPVisualizationSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPVisualizationSDK"
+  }
+}
