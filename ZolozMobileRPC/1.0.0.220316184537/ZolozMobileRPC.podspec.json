@@ -1,1 +1,22 @@
-{"name":"ZolozMobileRPC","version":"1.0.0.220316184537","summary":"ZolozMobileRPC - Zoloz RPC类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"8.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ZolozMobileRPC/1_0_0_220316184537.tar.gz"},"preserve_paths":"ZolozMobileRPC.framework/*","resources":"ZolozMobileRPC.framework/*.bundle","vendored_frameworks":"ZolozMobileRPC.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/ZolozMobileRPC"}}
+{
+  "name": "ZolozMobileRPC",
+  "version": "1.0.0.220316184537",
+  "summary": "ZolozMobileRPC - Zoloz RPC类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ZolozMobileRPC/1_0_0_220316184537.tar.gz"
+  },
+  "preserve_paths": "ZolozMobileRPC.framework/*",
+  "resources": "ZolozMobileRPC.framework/*.bundle",
+  "vendored_frameworks": "ZolozMobileRPC.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ZolozMobileRPC"
+  }
+}

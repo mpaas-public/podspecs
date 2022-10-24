@@ -1,0 +1,22 @@
+{
+  "name": "ZolozUtility",
+  "version": "1.0.0.221014160516",
+  "summary": "ZolozUtility - Zoloz基础类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ZolozUtility/1_0_0_221014160516.tar.gz"
+  },
+  "preserve_paths": "ZolozUtility.framework/*",
+  "resources": "ZolozUtility.framework/*.bundle",
+  "vendored_frameworks": "ZolozUtility.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ZolozUtility"
+  }
+}

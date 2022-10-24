@@ -1,1 +1,22 @@
-{"name":"MPRemoteLogging","version":"1.3.1.220817162736","summary":"MPRemoteLogging - 支付宝Zoloz基础参数配置类库","description":"Zoloz基础参数配置类","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"8.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPRemoteLogging/1_3_1_220817162736.tar.gz"},"preserve_paths":"MPRemoteLogging.framework/*","resources":"MPRemoteLogging.framework/*.bundle","vendored_frameworks":"MPRemoteLogging.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/MPRemoteLogging"}}
+{
+  "name": "MPRemoteLogging",
+  "version": "1.3.1.220817162736",
+  "summary": "MPRemoteLogging - 支付宝Zoloz基础参数配置类库",
+  "description": "Zoloz基础参数配置类",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPRemoteLogging/1_3_1_220817162736.tar.gz"
+  },
+  "preserve_paths": "MPRemoteLogging.framework/*",
+  "resources": "MPRemoteLogging.framework/*.bundle",
+  "vendored_frameworks": "MPRemoteLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPRemoteLogging"
+  }
+}

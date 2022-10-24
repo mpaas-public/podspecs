@@ -1,0 +1,26 @@
+{
+  "name": "AliyunIdentityManager",
+  "version": "1.0.0.221020141217",
+  "summary": "AliyunIdentityManager - 支付宝钱包AliyunIdentityManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AliyunIdentityManager/1_0_0_221020141217.tar.gz"
+  },
+  "preserve_paths": "AliyunIdentityManager.framework/*",
+  "resources": "AliyunIdentityManager.framework/*.bundle",
+  "dependencies": {
+    "BioAuthEngine": [],
+    "ZolozUtility": []
+  },
+  "vendored_frameworks": "AliyunIdentityManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AliyunIdentityManager"
+  }
+}

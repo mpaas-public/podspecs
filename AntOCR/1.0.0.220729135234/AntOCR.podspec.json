@@ -1,1 +1,41 @@
-{"name":"AntOCR","version":"1.0.0.220729135234","summary":"AntOCR - 支付宝钱包AntOCR类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"10.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntOCR/1_0_0_220729135234.tar.gz"},"frameworks":["WebKit","Accelerate","AssetsLibrary","CoreMotion","CoreLocation","AVFoundation","SystemConfiguration","UIKit"],"resources":"","vendored_frameworks":"","dependencies":{"APMUtils":"1.0.0.220622165414","XMedia":"1.0.0.220708165457","xNN":"1.0.0.220601164430","MPOCRAdapter":"1.0.0.220712180605","MPModelManager":"1.0.0.220601170233","MPOcr":"1.0.0.220622164229","MPRemoteLogging":"1.3.1.220608153634","ZolozMobileRPC":"1.0.0.220316184537"},"requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/AntOCR"}}
+{
+  "name": "AntOCR",
+  "version": "1.0.0.220729135234",
+  "summary": "AntOCR - 支付宝钱包AntOCR类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntOCR/1_0_0_220729135234.tar.gz"
+  },
+  "frameworks": [
+    "WebKit",
+    "Accelerate",
+    "AssetsLibrary",
+    "CoreMotion",
+    "CoreLocation",
+    "AVFoundation",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "resources": "",
+  "vendored_frameworks": "",
+  "dependencies": {
+    "APMUtils": [],
+    "XMedia": [],
+    "xNN": [],
+    "MPOCRAdapter": [],
+    "MPModelManager": [],
+    "MPOcr": [],
+    "MPRemoteLogging": [],
+    "ZolozMobileRPC": []
+  },
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntOCR"
+  }
+}
