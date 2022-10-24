@@ -1,0 +1,28 @@
+{
+  "name": "AntUI",
+  "version": "1.0.0.221018143153",
+  "summary": "AntUI - 支付宝钱包AntUI类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntUI/1_0_0_221018143153.tar.gz"
+  },
+  "preserve_paths": "AntUI.framework/*",
+  "resources": "AntUI.framework/*.bundle",
+  "dependencies": {},
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "Accelerate"
+  ],
+  "vendored_frameworks": "AntUI.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntUI"
+  }
+}
