@@ -1,0 +1,40 @@
+{
+  "name": "TinyappService",
+  "version": "1.0.0.221011180848",
+  "summary": "TinyappService - 支付宝钱包TinyappService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TinyappService/1_0_0_221011180848.tar.gz"
+  },
+  "preserve_paths": "TinyappService.framework/*",
+  "resources": "TinyappService.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "NebulaBiz": [],
+    "NebulaAppBiz": [],
+    "NebulaSecurity": [],
+    "NebulaTinyapp": [],
+    "TinyAppCommon": [],
+    "APProtocolBuffers": [],
+    "APConfig": [],
+    "SPMTracker": [],
+    "AriverDebug": [],
+    "AriverWebSocket": [],
+    "NebulaApp": [],
+    "mPaas": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "TinyappService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TinyappService"
+  }
+}
