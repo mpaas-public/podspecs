@@ -1,0 +1,32 @@
+{
+  "name": "AriverApi",
+  "version": "10.1.92.221027170220",
+  "summary": "AriverApi - 支付宝钱包AriverApi类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverApi/10_1_92_221027170220.tar.gz"
+  },
+  "prefix_header_file": "SupportingFiles/AriverApi-Prefix.pch",
+  "exclude_files": "Classes/Exclude",
+  "preserve_paths": "AriverApi.framework/*",
+  "header_dir": "AriverApi",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverResource": [],
+    "AriverApp": [],
+    "AriverConfig": [],
+    "AriverRuntime": []
+  },
+  "vendored_frameworks": "AriverApi.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverApi"
+  },
+  "frameworks": "Photos"
+}
