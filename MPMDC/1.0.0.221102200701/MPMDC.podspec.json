@@ -1,0 +1,28 @@
+{
+  "name": "MPMDC",
+  "version": "1.0.0.221102200701",
+  "summary": "MPMDC - 支付宝钱包MPMDC类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMDC/1_0_0_221102200701.tar.gz"
+  },
+  "preserve_paths": "MPMDC.framework/*",
+  "resources": "MPMDC.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APLog": [],
+    "MPDataCenter": [],
+    "MPNetAnalysis": []
+  },
+  "vendored_frameworks": "MPMDC.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMDC"
+  }
+}
