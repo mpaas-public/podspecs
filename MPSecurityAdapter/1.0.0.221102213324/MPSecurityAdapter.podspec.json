@@ -1,0 +1,24 @@
+{
+  "name": "MPSecurityAdapter",
+  "version": "1.0.0.221102213324",
+  "summary": "MPSecurityAdapter - 支付宝钱包MPSecurityAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSecurityAdapter/1_0_0_221102213324.tar.gz"
+  },
+  "preserve_paths": "MPSecurityAdapter.framework/*",
+  "dependencies": {
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "MPSecurityAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSecurityAdapter"
+  }
+}
