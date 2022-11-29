@@ -1,1 +1,28 @@
-{"name":"ArRecManager","version":"1.0.0.220803082204","summary":"ArRecManager - 支付宝钱包ArRecManager类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ArRecManager/1_0_0_220803082204.tar.gz"},"preserve_paths":"ArRecManager.framework/*","resources":"ArRecManager.framework/*.bundle","dependencies":{"FalconARKit":[],"XMedia":[],"APMUtils":[],"xNN":[]},"vendored_frameworks":"ArRecManager.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/ArRecManager"}}
+{
+  "name": "ArRecManager",
+  "version": "1.0.0.220803082204",
+  "summary": "ArRecManager - 支付宝钱包ArRecManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ArRecManager/1_0_0_220803082204.tar.gz"
+  },
+  "preserve_paths": "ArRecManager.framework/*",
+  "resources": "ArRecManager.framework/*.bundle",
+  "dependencies": {
+    "FalconARKit": [],
+    "XMedia": [],
+    "APMUtils": [],
+    "xNN": []
+  },
+  "vendored_frameworks": "ArRecManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ArRecManager"
+  }
+}

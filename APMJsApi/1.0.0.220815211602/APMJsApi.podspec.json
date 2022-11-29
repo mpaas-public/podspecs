@@ -1,1 +1,32 @@
-{"name":"APMJsApi","version":"1.0.0.220815211602","summary":"APMJsApi - 支付宝钱包APMJsApi类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMJsApi/1_0_0_220815211602.tar.gz"},"preserve_paths":"APMJsApi.framework/*","resources":"APMJsApi.framework/*.bundle","dependencies":{"XMedia":[],"Nebula":[],"Texel":[],"Ant3D":[],"APMUtils":[],"XMediaCoreBiz":[],"APMultimedia":[],"ArRecManager":[]},"vendored_frameworks":"APMJsApi.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APMJsApi"}}
+{
+  "name": "APMJsApi",
+  "version": "1.0.0.220815211602",
+  "summary": "APMJsApi - 支付宝钱包APMJsApi类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMJsApi/1_0_0_220815211602.tar.gz"
+  },
+  "preserve_paths": "APMJsApi.framework/*",
+  "resources": "APMJsApi.framework/*.bundle",
+  "dependencies": {
+    "XMedia": [],
+    "Nebula": [],
+    "Texel": [],
+    "Ant3D": [],
+    "APMUtils": [],
+    "XMediaCoreBiz": [],
+    "APMultimedia": [],
+    "ArRecManager": []
+  },
+  "vendored_frameworks": "APMJsApi.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMJsApi"
+  }
+}

@@ -1,1 +1,26 @@
-{"name":"APMImageProcessing","version":"1.0.0.220802142941","summary":"APMImageProcessing - 支付宝钱包APMImageProcessing类库","description":"* Detail about this framework.","homepage":"https://www.mpaas.com/","license":"MIT","authors":"mPaaS","platforms":{"ios":"5.0"},"source":{"http":"https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMImageProcessing/1_0_0_220802142941.tar.gz"},"preserve_paths":"APMImageProcessing.framework/*","resources":"APMImageProcessing.framework/*.bundle","dependencies":{"Texel":[],"APMUtils":[]},"vendored_frameworks":"APMImageProcessing.framework","requires_arc":true,"xcconfig":{"FRAMEWORK_SEARCH_PATHS":"$(PODS_ROOT)/APMImageProcessing"}}
+{
+  "name": "APMImageProcessing",
+  "version": "1.0.0.220802142941",
+  "summary": "APMImageProcessing - 支付宝钱包APMImageProcessing类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMImageProcessing/1_0_0_220802142941.tar.gz"
+  },
+  "preserve_paths": "APMImageProcessing.framework/*",
+  "resources": "APMImageProcessing.framework/*.bundle",
+  "dependencies": {
+    "Texel": [],
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMImageProcessing.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMImageProcessing"
+  }
+}
