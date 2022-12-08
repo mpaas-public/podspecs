@@ -1,0 +1,27 @@
+{
+  "name": "MPSafeKeyboard",
+  "version": "1.0.0.221207211437",
+  "summary": "MPSafeKeyboard - mPaaS 安全键盘",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSafeKeyboard/1_0_0_221207211437.tar.gz"
+  },
+  "preserve_paths": "MPSafeKeyboard.framework/*",
+  "dependencies": {
+    "APOpenSSL": [],
+    "APRemoteLogging": [],
+    "MPAntSSM": []
+  },
+  "vendored_frameworks": "MPSafeKeyboard.framework",
+  "resources": "MPSafeKeyboard.framework/*.bundle",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSafeKeyboard"
+  }
+}
