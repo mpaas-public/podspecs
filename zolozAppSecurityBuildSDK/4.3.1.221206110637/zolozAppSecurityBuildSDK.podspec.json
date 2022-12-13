@@ -1,0 +1,26 @@
+{
+  "name": "zolozAppSecurityBuildSDK",
+  "version": "4.3.1.221206110637",
+  "summary": "zolozAppSecurityBuildSDK - 支付宝钱包zolozAppSecurityBuildSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/zolozAppSecurityBuildSDK/4_3_1_221206110637.tar.gz"
+  },
+  "preserve_paths": "zolozAppSecurityBuildSDK.framework/*",
+  "resources": "zolozAppSecurityBuildSDK.framework/*.bundle",
+  "vendored_frameworks": "zolozAppSecurityBuildSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/zolozAppSecurityBuildSDK"
+  },
+  "dependencies": {
+    "zolozIdentitySDK": [],
+    "APPSecuritySDKCore": []
+  }
+}
