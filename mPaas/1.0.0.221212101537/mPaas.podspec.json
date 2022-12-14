@@ -1,0 +1,26 @@
+{
+  "name": "mPaas",
+  "version": "1.0.0.221212101537",
+  "summary": "基础库.",
+  "description": "基础库MobileFundation.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/mPaas/1_0_0_221212101537.tar.gz"
+  },
+  "vendored_frameworks": "mPaas.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "preserve_paths": "mPaas.framework/*",
+  "requires_arc": true,
+  "frameworks": "Security",
+  "dependencies": {
+    "APLog": []
+  }
+}
