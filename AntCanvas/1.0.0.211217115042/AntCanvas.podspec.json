@@ -1,0 +1,26 @@
+{
+  "name": "AntCanvas",
+  "version": "1.0.0.211217115042",
+  "summary": "AntCanvas - 支付宝钱包AntCanvas类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntCanvas/1_0_0_211217115042.tar.gz"
+  },
+  "preserve_paths": "AntCanvas.framework/*",
+  "dependencies": {
+    "APJSONKit": [],
+    "AUBase": [],
+    "AntGraphic": []
+  },
+  "vendored_frameworks": "AntCanvas.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntCanvas"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Lottie",
+  "version": "1.0.0.220310084306",
+  "summary": "Lottie - 支付宝钱包Lottie类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Lottie/1_0_0_220310084306.tar.gz"
+  },
+  "preserve_paths": "Lottie.framework/*",
+  "resources": "Lottie.framework/*.bundle",
+  "frameworks": "GLKit",
+  "dependencies": {
+    "Lottie2": [],
+    "AnimatiableBase": []
+  },
+  "vendored_frameworks": "Lottie.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Lottie"
+  }
+}

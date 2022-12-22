@@ -1,0 +1,28 @@
+{
+  "name": "BeeMediaFlowWrapper",
+  "version": "1.0.0.221222115250",
+  "summary": "BeeMediaFlowWrapper - 支付宝钱包BeeMediaFlowWrapper类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeMediaFlowWrapper/1_0_0_221222115250.tar.gz"
+  },
+  "preserve_paths": "BeeMediaFlowWrapper.framework/*",
+  "resources": "BeeMediaFlowWrapper.framework/*.bundle",
+  "dependencies": {
+    "MediaFlow": [],
+    "AUBase": [],
+    "AntGraphic": [],
+    "BeeMediaPlayer": []
+  },
+  "vendored_frameworks": "BeeMediaFlowWrapper.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeMediaFlowWrapper"
+  }
+}

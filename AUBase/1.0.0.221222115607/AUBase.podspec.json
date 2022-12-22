@@ -1,0 +1,22 @@
+{
+  "name": "AUBase",
+  "version": "1.0.0.221222115607",
+  "summary": "AUBase - 支付宝钱包AUBase类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AUBase/1_0_0_221222115607.tar.gz"
+  },
+  "preserve_paths": "AUBase.framework/*",
+  "resources": "AUBase.framework/*.bundle",
+  "vendored_frameworks": "AUBase.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AUBase"
+  }
+}

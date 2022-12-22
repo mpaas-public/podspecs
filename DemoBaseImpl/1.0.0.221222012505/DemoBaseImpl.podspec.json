@@ -1,0 +1,30 @@
+{
+  "name": "DemoBaseImpl",
+  "version": "1.0.0.221222012505",
+  "summary": "DemoBaseImpl - 支付宝钱包DemoBaseImpl类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/DemoBaseImpl/1_0_0_221222012505.tar.gz"
+  },
+  "preserve_paths": "DemoBaseImpl.framework/*",
+  "resources": "DemoBaseImpl.framework/*.bundle",
+  "dependencies": {
+    "AUBase": [],
+    "AntUI": [],
+    "mPaas": [],
+    "Lottie": [],
+    "AntMation": [],
+    "SDWebImage": []
+  },
+  "vendored_frameworks": "DemoBaseImpl.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/DemoBaseImpl"
+  }
+}

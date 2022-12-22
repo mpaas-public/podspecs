@@ -1,0 +1,31 @@
+{
+  "name": "GCanvas4Alipay",
+  "version": "1.0.0.211213155631",
+  "summary": "GCanvas for Alipay.",
+  "description": "GCanvas for Alipay Source.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/GCanvas4Alipay/1_0_0_211213155631.tar.gz"
+  },
+  "user_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "'$(PODS_ROOT)/GCanvas4Alipay'"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "GCanvas4Alipay.framework",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "GLKit",
+    "CoreMedia",
+    "AVFoundation"
+  ],
+  "libraries": "stdc++",
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DIOS"
+  }
+}
