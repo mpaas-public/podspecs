@@ -1,0 +1,27 @@
+{
+  "name": "AriverFileManager",
+  "version": "1.0.0.220729233123",
+  "summary": "AriverFileManager - 支付宝钱包AriverFileManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverFileManager/1_0_0_220729233123.tar.gz"
+  },
+  "preserve_paths": "AriverFileManager.framework/*",
+  "dependencies": {
+    "AriverKernel": [],
+    "AriverApp": [],
+    "AriverApi": [],
+    "AriverResource": []
+  },
+  "vendored_frameworks": "AriverFileManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverFileManager"
+  }
+}

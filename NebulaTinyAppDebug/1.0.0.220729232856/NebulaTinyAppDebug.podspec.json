@@ -1,0 +1,42 @@
+{
+  "name": "NebulaTinyAppDebug",
+  "version": "1.0.0.220729232856",
+  "summary": "NebulaTinyAppDebug - 支付宝钱包NebulaTinyAppDebug类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaTinyAppDebug/1_0_0_220729232856.tar.gz"
+  },
+  "preserve_paths": "NebulaTinyAppDebug.framework/*",
+  "resources": "NebulaTinyAppDebug.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "MobileFoundation": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaNetwork": [],
+    "TinyAppCommon": [],
+    "AccountInfoService": [],
+    "NebulaResource": [],
+    "AriverDebug": [],
+    "SocketCraft": [],
+    "AntUI": [],
+    "AriverCore": [],
+    "AriverTraceDebug": [],
+    "AriverWebSocket": [],
+    "AOMPFileManager": [],
+    "InsideSDK": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaTinyAppDebug.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaTinyAppDebug"
+  }
+}
