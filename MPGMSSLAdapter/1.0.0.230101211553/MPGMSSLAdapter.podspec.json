@@ -1,0 +1,29 @@
+{
+  "name": "MPGMSSLAdapter",
+  "version": "1.0.0.230101211553",
+  "summary": "MPGMSSLAdapter - 支付宝钱包MPGMSSLAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPGMSSLAdapter/1_0_0_230101211553.tar.gz"
+  },
+  "preserve_paths": "MPGMSSLAdapter.framework/*",
+  "resources": "MPGMSSLAdapter.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "MPGMAdapter": [],
+    "MASSProxy": [],
+    "NetworkCtlService": []
+  },
+  "libraries": "resolv",
+  "vendored_frameworks": "MPGMSSLAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPGMSSLAdapter"
+  }
+}
