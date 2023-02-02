@@ -1,0 +1,25 @@
+{
+  "name": "AUTheme",
+  "version": "1.0.0.220407103328",
+  "summary": "AUTheme - 支付宝钱包AUTheme类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AUTheme/1_0_0_220407103328.tar.gz"
+  },
+  "preserve_paths": "AUTheme.framework/*",
+  "resources": "AUTheme.framework/*.bundle",
+  "dependencies": {
+    "AntUIToken": []
+  },
+  "vendored_frameworks": "AUTheme.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AUTheme"
+  }
+}

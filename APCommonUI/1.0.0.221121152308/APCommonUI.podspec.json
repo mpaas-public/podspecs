@@ -1,0 +1,25 @@
+{
+  "name": "APCommonUI",
+  "version": "1.0.0.221121152308",
+  "summary": "APCommonUI - The UIKit framework provides the classes needed to construct and manage an application’s user interface",
+  "description": "* The UIKit framework provides the classes needed to construct and manage an application’s user interface.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APCommonUI/1_0_0_221121152308.tar.gz"
+  },
+  "preserve_paths": "APCommonUI.framework/*",
+  "dependencies": {
+    "AntUI": [],
+    "TTTAttributedLabel": []
+  },
+  "vendored_frameworks": "APCommonUI.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APCommonUI"
+  }
+}

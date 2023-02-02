@@ -1,0 +1,44 @@
+{
+  "name": "MobileAiX",
+  "version": "1.0.0.230111213643",
+  "summary": "MobileAiX - 支付宝钱包MobileAiX类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MobileAiX/1_0_0_230111213643.tar.gz"
+  },
+  "preserve_paths": "MobileAiX.framework/*",
+  "resources": "MobileAiX.framework/*.bundle",
+  "dependencies": {
+    "MPMgsAdapter": [],
+    "APMobileFramework": [],
+    "xNN": [],
+    "APLog": [],
+    "APConfig": [],
+    "MPDataCenter": [],
+    "APBehaviorCenter": [],
+    "AIXPythonLite": [],
+    "APProtocolBuffers": [],
+    "MobileAixEdgeMining": [],
+    "SPMTracker": [],
+    "uep": [],
+    "APMultimedia": [],
+    "APMobileLBS": [],
+    "AntUI": [],
+    "AUBase": []
+  },
+  "frameworks": [
+    "JavaScriptCore",
+    "Accelerate"
+  ],
+  "vendored_frameworks": "MobileAiX.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MobileAiX"
+  }
+}

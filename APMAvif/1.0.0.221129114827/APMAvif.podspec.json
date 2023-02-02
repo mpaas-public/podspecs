@@ -1,0 +1,26 @@
+{
+  "name": "APMAvif",
+  "version": "1.0.0.221129114827",
+  "summary": "APMAvif - 支付宝钱包APMAvif类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMAvif/1_0_0_221129114827.tar.gz"
+  },
+  "preserve_paths": "APMAvif.framework/*",
+  "resources": "APMAvif.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "AntAvif": []
+  },
+  "vendored_frameworks": "APMAvif.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMAvif"
+  }
+}

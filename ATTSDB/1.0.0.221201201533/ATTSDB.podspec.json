@@ -1,0 +1,29 @@
+{
+  "name": "ATTSDB",
+  "version": "1.0.0.221201201533",
+  "summary": "ATTSDB - 支付宝钱包ATTSDB类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/ATTSDB/1_0_0_221201201533.tar.gz"
+  },
+  "preserve_paths": "ATTSDB.framework/*",
+  "resources": "ATTSDB.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "APRemoteLogging": [],
+    "APProtocolBuffers": [],
+    "APConfig": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "ATTSDB.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/ATTSDB"
+  }
+}

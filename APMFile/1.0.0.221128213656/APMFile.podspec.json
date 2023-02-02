@@ -1,0 +1,28 @@
+{
+  "name": "APMFile",
+  "version": "1.0.0.221128213656",
+  "summary": "APMFile - 支付宝钱包APMFile类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMFile/1_0_0_221128213656.tar.gz"
+  },
+  "preserve_paths": "APMFile.framework/*",
+  "resources": "APMFile.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APMFileTransfer": [],
+    "APMMediaCache": [],
+    "APMCommon": []
+  },
+  "vendored_frameworks": "APMFile.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMFile"
+  }
+}

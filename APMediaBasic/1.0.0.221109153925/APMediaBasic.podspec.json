@@ -1,0 +1,26 @@
+{
+  "name": "APMediaBasic",
+  "version": "1.0.0.221109153925",
+  "summary": "APMediaBasic - 支付宝钱包APMediaBasic类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMediaBasic/1_0_0_221109153925.tar.gz"
+  },
+  "preserve_paths": "APMediaBasic.framework/*",
+  "resources": "APMediaBasic.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APMCommon": []
+  },
+  "vendored_frameworks": "APMediaBasic.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMediaBasic"
+  }
+}

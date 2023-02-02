@@ -1,0 +1,26 @@
+{
+  "name": "APMAudioCapturer",
+  "version": "1.0.0.221129110344",
+  "summary": "APMAudioCapturer - 支付宝钱包APMAudioCapturer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMAudioCapturer/1_0_0_221129110344.tar.gz"
+  },
+  "preserve_paths": "APMAudioCapturer.framework/*",
+  "resources": "APMAudioCapturer.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APMCommon": []
+  },
+  "vendored_frameworks": "APMAudioCapturer.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMAudioCapturer"
+  }
+}

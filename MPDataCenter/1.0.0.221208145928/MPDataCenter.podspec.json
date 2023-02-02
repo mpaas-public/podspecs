@@ -1,0 +1,28 @@
+{
+  "name": "MPDataCenter",
+  "version": "1.0.0.221208145928",
+  "summary": "MAS接口库.",
+  "description": "MAS接口库.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDataCenter/1_0_0_221208145928.tar.gz"
+  },
+  "vendored_frameworks": "MPDataCenter.framework",
+  "libraries": [
+    "sqlite3",
+    "xml2"
+  ],
+  "preserve_paths": "MPDataCenter.framework/*",
+  "requires_arc": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "dependencies": {
+    "mPaas": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "APMVideo",
+  "version": "1.0.0.221129150644",
+  "summary": "APMVideo - 支付宝钱包APMVideo类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMVideo/1_0_0_221129150644.tar.gz"
+  },
+  "preserve_paths": "APMVideo.framework/*",
+  "resources": "APMVideo.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APMFileTransfer": [],
+    "APMUtils": [],
+    "APMCommon": [],
+    "APMultimedia": [],
+    "AUBase": [],
+    "APMBeauty": [],
+    "APMediaBasic": [],
+    "NebulaPoseidon": [],
+    "Nebula": []
+  },
+  "vendored_frameworks": "APMVideo.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMVideo"
+  }
+}

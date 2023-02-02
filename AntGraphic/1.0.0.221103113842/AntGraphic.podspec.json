@@ -1,0 +1,24 @@
+{
+  "name": "AntGraphic",
+  "version": "1.0.0.221103113842",
+  "summary": "AntGraphic - 支付宝钱包AntGraphic类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntGraphic/1_0_0_221103113842.tar.gz"
+  },
+  "preserve_paths": "AntGraphic.framework/*",
+  "dependencies": {
+    "AGSkia": []
+  },
+  "vendored_frameworks": "AntGraphic.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntGraphic"
+  }
+}

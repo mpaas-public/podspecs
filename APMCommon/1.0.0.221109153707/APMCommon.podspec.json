@@ -1,0 +1,26 @@
+{
+  "name": "APMCommon",
+  "version": "1.0.0.221109153707",
+  "summary": "APMCommon - 支付宝钱包APMCommon类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMCommon/1_0_0_221109153707.tar.gz"
+  },
+  "preserve_paths": "APMCommon.framework/*",
+  "resources": "APMCommon.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "MobileFoundation": []
+  },
+  "vendored_frameworks": "APMCommon.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMCommon"
+  }
+}

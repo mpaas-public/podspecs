@@ -1,0 +1,29 @@
+{
+  "name": "APStorageCenter",
+  "version": "1.0.0.221121210400",
+  "summary": "APStorageCenter - 支付宝钱包APStorageCenter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APStorageCenter/1_0_0_221121210400.tar.gz"
+  },
+  "preserve_paths": "APStorageCenter.framework/*",
+  "resources": "APStorageCenter.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "MPDataCenter": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "APStorageCenter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APStorageCenter"
+  }
+}

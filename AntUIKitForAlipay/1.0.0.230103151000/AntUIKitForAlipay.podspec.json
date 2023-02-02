@@ -1,0 +1,28 @@
+{
+  "name": "AntUIKitForAlipay",
+  "version": "1.0.0.230103151000",
+  "summary": "AntUIKitForAlipay - 支付宝钱包AntUIKitForAlipay类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntUIKitForAlipay/1_0_0_230103151000.tar.gz"
+  },
+  "preserve_paths": "AntUIKitForAlipay.framework/*",
+  "resources": "AntUIKitForAlipay.framework/*.bundle",
+  "dependencies": {
+    "uep": [],
+    "APConfig": [],
+    "mPaas": [],
+    "AUBase": []
+  },
+  "vendored_frameworks": "AntUIKitForAlipay.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntUIKitForAlipay"
+  }
+}

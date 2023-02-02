@@ -1,0 +1,22 @@
+{
+  "name": "AntAvif",
+  "version": "1.0.0.221129113744",
+  "summary": "AntAvif - 支付宝钱包AntAvif类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntAvif/1_0_0_221129113744.tar.gz"
+  },
+  "preserve_paths": "AntAvif.framework/*",
+  "resources": "AntAvif.framework/*.bundle",
+  "vendored_frameworks": "AntAvif.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntAvif"
+  }
+}

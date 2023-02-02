@@ -1,0 +1,30 @@
+{
+  "name": "BeeUtils",
+  "version": "1.0.0.221130184134",
+  "summary": "BeeUtils - 支付宝BeeUtils类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeUtils/1_0_0_221130184134.tar.gz"
+  },
+  "preserve_paths": "BeeUtils.framework/*",
+  "resources": "BeeUtils.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "Nebula": [],
+    "APMultimedia": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "BeeUtils.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeUtils"
+  }
+}

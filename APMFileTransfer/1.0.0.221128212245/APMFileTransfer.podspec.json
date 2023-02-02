@@ -1,0 +1,32 @@
+{
+  "name": "APMFileTransfer",
+  "version": "1.0.0.221128212245",
+  "summary": "APMFileTransfer - 支付宝钱包APMFileTransfer类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMFileTransfer/1_0_0_221128212245.tar.gz"
+  },
+  "preserve_paths": "APMFileTransfer.framework/*",
+  "resources": "APMFileTransfer.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "APMCommon": [],
+    "MASSProxy": [],
+    "APMTaskManager": [],
+    "APMMediaCache": [],
+    "APMCache": [],
+    "APMAftsCommon": [],
+    "APMCDNImage": []
+  },
+  "vendored_frameworks": "APMFileTransfer.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMFileTransfer"
+  }
+}
