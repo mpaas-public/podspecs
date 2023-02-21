@@ -1,0 +1,50 @@
+{
+  "name": "AntCube",
+  "version": "1.0.0.230131174520",
+  "summary": "AntCube - 支付宝钱包CubeKit引擎",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntCube/1_0_0_230131174520.tar.gz"
+  },
+  "preserve_paths": "AntCube.framework/*",
+  "resources": [
+    "CubeKit.framework/*.bundle",
+    "AntCube.framework/*.bundle"
+  ],
+  "dependencies": {
+    "APMobileFramework": [],
+    "APConfig": [],
+    "APRemoteLogging": [],
+    "APLog": [],
+    "AntWasm": [],
+    "mPaas": [],
+    "MPMgsAdapter": [],
+    "MPMasAdapter": [],
+    "AriverKernel": [],
+    "Nebula": [],
+    "NebulaAppBiz": [],
+    "NebulaBiz": [],
+    "NebulaApp": [],
+    "NebulaResource": [],
+    "NebulaKernel": [],
+    "NebulaSDK": []
+  },
+  "vendored_frameworks": [
+    "AntCube.framework",
+    "CubeCrystal.framework",
+    "CubeKit.framework",
+    "CubeBridge.framework",
+    "CubeCore.framework",
+    "CubePlatform.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntCube"
+  }
+}
