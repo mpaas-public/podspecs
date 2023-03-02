@@ -1,0 +1,30 @@
+{
+  "name": "MPZolozUIExt",
+  "version": "1.0.0.230301155003",
+  "summary": "MPZolozUIExt - 支付宝钱包MPZolozUIExt类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPZolozUIExt/1_0_0_230301155003.tar.gz"
+  },
+  "frameworks": "UIKit",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "preserve_paths": "MPZolozUIExt.framework/*",
+  "resources": "MPZolozUIExt.framework/*.bundle",
+  "dependencies": {
+    "zolozOpenUISDK": []
+  },
+  "vendored_frameworks": "MPZolozUIExt.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPZolozUIExt"
+  }
+}
