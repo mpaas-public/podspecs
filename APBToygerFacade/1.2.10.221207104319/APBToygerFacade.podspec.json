@@ -1,0 +1,27 @@
+{
+  "name": "APBToygerFacade",
+  "version": "1.2.10.221207104319",
+  "summary": "APBToygerFacade - 支付宝钱包APBToygerFacade类库",
+  "description": "新版人脸入口",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APBToygerFacade/1_2_10_221207104319.tar.gz"
+  },
+  "preserve_paths": "APBToygerFacade.framework/*",
+  "resources": "APBToygerFacade.framework/*.bundle",
+  "dependencies": {
+    "BioAuthEngine": [],
+    "ToygerService": [],
+    "ZolozUtility": []
+  },
+  "vendored_frameworks": "APBToygerFacade.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APBToygerFacade"
+  }
+}
