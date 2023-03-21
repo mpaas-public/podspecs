@@ -1,0 +1,36 @@
+{
+  "name": "MPDeviceIdentity",
+  "version": "1.0.0.230314114129",
+  "summary": "MPDeviceIdentity - 支付宝钱包MPDeviceIdentity类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDeviceIdentity/1_0_0_230314114129.tar.gz"
+  },
+  "frameworks": [
+    "UIKit",
+    "SystemConfiguration",
+    "CoreLocation",
+    "CoreTelephony",
+    "CoreBluetooth"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "preserve_paths": "MPDeviceIdentity.framework/*",
+  "resources": "MPDeviceIdentity.framework/*.bundle",
+  "dependencies": {
+    "MPDeviceIdentityExt": []
+  },
+  "vendored_frameworks": "MPDeviceIdentity.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDeviceIdentity"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MPaaSCryptoSDK",
+  "version": "1.0.0.230223153507",
+  "summary": "MPaaSCryptoSDK - 支付宝钱包MPaaSCryptoSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPaaSCryptoSDK/1_0_0_230223153507.tar.gz"
+  },
+  "preserve_paths": "MPaaSCryptoSDK.framework/*",
+  "resources": "MPaaSCryptoSDK.framework/*.bundle",
+  "libraries": "c++",
+  "dependencies": {
+    "APOpenSSL": [],
+    "MPAntSSM": []
+  },
+  "vendored_frameworks": "MPaaSCryptoSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPaaSCryptoSDK"
+  }
+}

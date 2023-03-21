@@ -1,0 +1,29 @@
+{
+  "name": "MPNetAnalysis",
+  "version": "1.0.0.221206172518",
+  "summary": "MPNetAnalysis - mPaaS 网络探测库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNetAnalysis/1_0_0_221206172518.tar.gz"
+  },
+  "preserve_paths": "MPNetAnalysis.framework/*",
+  "dependencies": {
+    "mPaas": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "MPNetAnalysis.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPNetAnalysis"
+  }
+}

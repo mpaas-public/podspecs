@@ -1,0 +1,24 @@
+{
+  "name": "NebulaHeader",
+  "version": "1.0.0.230302115706",
+  "summary": "支付宝钱包NebulaHeader类库",
+  "description": "支付宝钱包NebulaHeader类库",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaHeader/1_0_0_230302115706.tar.gz"
+  },
+  "dependencies": {
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "NebulaHeader.framework",
+  "preserve_paths": "NebulaHeader.framework/*",
+  "requires_arc": true,
+  "weak_frameworks": "Foundation"
+}

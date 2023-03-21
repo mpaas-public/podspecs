@@ -1,0 +1,24 @@
+{
+  "name": "MPLBSAdapter",
+  "version": "1.0.0.230306164520",
+  "summary": "定位adapter",
+  "description": "定位组件adapter",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPLBSAdapter/1_0_0_230306164520.tar.gz"
+  },
+  "vendored_frameworks": "MPLBSAdapter.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPLBSAdapter.framework/*.bundle",
+  "preserve_paths": "MPLBSAdapter.framework/*",
+  "dependencies": {},
+  "requires_arc": true
+}

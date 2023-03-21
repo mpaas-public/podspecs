@@ -1,0 +1,32 @@
+{
+  "name": "MPDeviceIdentityExt",
+  "version": "1.0.0.230313152324",
+  "summary": "MPDeviceIdentityExt - 支付宝钱包MPDeviceIdentityExt类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDeviceIdentityExt/1_0_0_230313152324.tar.gz"
+  },
+  "frameworks": [
+    "UIKit",
+    "SystemConfiguration",
+    "CoreLocation",
+    "CoreTelephony"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "preserve_paths": "MPDeviceIdentityExt.framework/*",
+  "resources": "MPDeviceIdentityExt.framework/*.bundle",
+  "vendored_frameworks": "MPDeviceIdentityExt.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDeviceIdentityExt"
+  }
+}

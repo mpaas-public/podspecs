@@ -1,0 +1,36 @@
+{
+  "name": "APStreamingRPC",
+  "version": "1.0.0.230223113702",
+  "summary": "APStreamingRPC - 支付宝钱包APStreamingRPC类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APStreamingRPC/1_0_0_230223113702.tar.gz"
+  },
+  "preserve_paths": "APStreamingRPC.framework/*",
+  "resources": "APStreamingRPC.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "AccountInfoService": [],
+    "APMobileNetwork": [],
+    "Nebula": [],
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "NebulaConfig": [],
+    "APRemoteLogging": [],
+    "APMPaaS": [],
+    "AMNet": [],
+    "FullLinkTracker": [],
+    "APNetworkTransport": []
+  },
+  "vendored_frameworks": "APStreamingRPC.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APStreamingRPC"
+  }
+}

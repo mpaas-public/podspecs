@@ -1,0 +1,28 @@
+{
+  "name": "XMedia",
+  "version": "1.0.0.230306123934",
+  "summary": "XMedia - 支付宝钱包XMedia类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/XMedia/1_0_0_230306123934.tar.gz"
+  },
+  "preserve_paths": "XMedia.framework/*",
+  "resources": "XMedia.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": [],
+    "xNN": [],
+    "libCVEngine": [],
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "XMedia.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/XMedia"
+  }
+}

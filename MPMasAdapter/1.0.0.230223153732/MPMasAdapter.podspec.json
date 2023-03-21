@@ -1,0 +1,24 @@
+{
+  "name": "MPMasAdapter",
+  "version": "1.0.0.230223153732",
+  "summary": "MPMasAdapter - 支付宝钱包MPMasAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMasAdapter/1_0_0_230223153732.tar.gz"
+  },
+  "preserve_paths": "MPMasAdapter.framework/*",
+  "dependencies": {
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "MPMasAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMasAdapter"
+  }
+}
