@@ -1,0 +1,27 @@
+{
+  "name": "NebulaAppManager",
+  "version": "1.3.0.230331152753",
+  "summary": "NebulaAppManager - 支付宝钱包NebulaAppManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaAppManager/1_3_0_230331152753.tar.gz"
+  },
+  "preserve_paths": "NebulaAppManager.framework/*",
+  "resources": "NebulaAppManager.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "APOpenSSL": []
+  },
+  "libraries": "bz2",
+  "vendored_frameworks": "NebulaAppManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaAppManager"
+  }
+}
