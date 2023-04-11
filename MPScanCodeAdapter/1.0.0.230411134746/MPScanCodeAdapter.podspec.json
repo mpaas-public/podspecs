@@ -1,0 +1,26 @@
+{
+  "name": "MPScanCodeAdapter",
+  "version": "1.0.0.230411134746",
+  "summary": "MPScanCodeAdapter - 支付宝钱包MPScanCodeAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPScanCodeAdapter/1_0_0_230411134746.tar.gz"
+  },
+  "preserve_paths": "MPScanCodeAdapter.framework/*",
+  "resources": "MPScanCodeAdapter.framework/*.bundle",
+  "dependencies": {
+    "NebulaSDK": [],
+    "NebulaPoseidon": []
+  },
+  "vendored_frameworks": "MPScanCodeAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPScanCodeAdapter"
+  }
+}
