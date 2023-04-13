@@ -1,0 +1,25 @@
+{
+  "name": "zolozOpenUISDK",
+  "version": "4.5.0.230406140107",
+  "summary": "zolozOpenUISDK - 支付宝钱包zolozOpenUISDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/zolozOpenUISDK/4_5_0_230406140107.tar.gz"
+  },
+  "preserve_paths": "zolozOpenUISDK.framework/*",
+  "resources": "zolozOpenUISDK.framework/*.bundle",
+  "vendored_frameworks": "zolozOpenUISDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/zolozOpenUISDK"
+  },
+  "dependencies": {
+    "zolozIdentitySDK": []
+  }
+}
