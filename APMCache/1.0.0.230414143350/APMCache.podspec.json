@@ -1,0 +1,25 @@
+{
+  "name": "APMCache",
+  "version": "1.0.0.230414143350",
+  "summary": "APMCache - 支付宝钱包APMCache类库",
+  "description": "* 多媒体缓存库",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMCache/1_0_0_230414143350.tar.gz"
+  },
+  "preserve_paths": "APMCache.framework/*",
+  "dependencies": {
+    "APMUtils": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "APMCache.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMCache"
+  }
+}
