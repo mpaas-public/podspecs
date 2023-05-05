@@ -1,0 +1,26 @@
+{
+  "name": "MPContentRPC",
+  "version": "1.0.0.230428194246",
+  "summary": "MPContentRPC - 支付宝钱包MPContentRPC类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPContentRPC/1_0_0_230428194246.tar.gz"
+  },
+  "preserve_paths": "MPContentRPC.framework/*",
+  "resources": "MPContentRPC.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APProtocolBuffers": []
+  },
+  "vendored_frameworks": "MPContentRPC.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPContentRPC"
+  }
+}
