@@ -1,0 +1,25 @@
+{
+  "name": "MPNetAnalysis",
+  "version": "1.0.0.230510172739",
+  "summary": "MPNetAnalysis - mPaaS 网络探测库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNetAnalysis/1_0_0_230510172739.tar.gz"
+  },
+  "preserve_paths": "MPNetAnalysis.framework/*",
+  "dependencies": {
+    "mPaas": [],
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "MPNetAnalysis.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPNetAnalysis"
+  }
+}
