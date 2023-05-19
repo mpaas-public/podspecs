@@ -1,0 +1,27 @@
+{
+  "name": "AriverMap",
+  "version": "1.0.0.230518212330",
+  "summary": "AriverMap - 支付宝钱包AriverMap类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AriverMap/1_0_0_230518212330.tar.gz"
+  },
+  "preserve_paths": "AriverMap.framework/*",
+  "resources": "AriverMap.framework/*.bundle",
+  "dependencies": {
+    "AriverApp": [],
+    "AriverConfig": [],
+    "SPMTracker": []
+  },
+  "vendored_frameworks": "AriverMap.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AriverMap"
+  }
+}
