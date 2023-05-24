@@ -1,0 +1,28 @@
+{
+  "name": "MPMassAdapter",
+  "version": "1.0.0.230427142554",
+  "summary": "MPMassAdapter - 支付宝钱包MPMassAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMassAdapter/1_0_0_230427142554.tar.gz"
+  },
+  "preserve_paths": "MPMassAdapter.framework/*",
+  "resources": "MPMassAdapter.framework/*.bundle",
+  "dependencies": {
+    "MASSChannel": [],
+    "MASSProxy": [],
+    "mPaas": [],
+    "MPSignatureAdapter": []
+  },
+  "vendored_frameworks": "MPMassAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMassAdapter"
+  }
+}
