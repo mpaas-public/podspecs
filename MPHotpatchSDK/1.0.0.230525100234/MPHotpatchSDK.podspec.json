@@ -1,0 +1,31 @@
+{
+  "name": "MPHotpatchSDK",
+  "version": "1.0.0.230525100234",
+  "summary": "hotpatch热修复库",
+  "description": "mPaaS对外提供版本，可通过 APP Store审核",
+  "homepage": "https://www.mpaas.com/",
+  "license": "MIT",
+  "authors": "mPaaS",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPHotpatchSDK/1_0_0_230525100234.tar.gz"
+  },
+  "vendored_frameworks": "MPHotpatchSDK.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPHotpatchSDK.framework/*.bundle",
+  "preserve_paths": "MPHotpatchSDK.framework/*",
+  "dependencies": {
+    "APProtocolBuffers": [],
+    "APRemoteLogging": [],
+    "mPaas": [],
+    "APMobileNetwork": [],
+    "APOpenSSL": [],
+    "MPMpaaSService": []
+  },
+  "requires_arc": true
+}
